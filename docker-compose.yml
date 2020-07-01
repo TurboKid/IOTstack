@@ -61,7 +61,54 @@ services:
       #- UMASK_SET=022 #optional
     volumes:
       - ./volumes/plex/config:/config
-      #- ~/mnt/HDD/tvseries:/tv
-      #- ~/mnt/HDD/movies:/movies
+      - /media/data/TV:/media/TV
+      - /media/data/Movies:/media/Movies
       - ./volumes/plex/transcode:/transcode
     restart: unless-stopped
+
+  zerotierone:
+    image: keynetworks/ztncui
+    container_name: zerotierone
+    network_mode: host
+    ports:
+      - 3443:3443
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
+
+  nextcloud:
+    image: nextcloud
+    container_name: nextcloud
+    ports:
+      - 9321:80
+    volumes:
+      - /media/volumes/nextcloud/html:/var/www/html
+    restart: unless-stopped
+    depends_on: 
+      - nextcloud_db
+
+  nextcloud_db:
+    image: linuxserver/mariadb
+    container_name: nextcloud_db
+    volumes:
+      - /media/volumes/nextcloud/db:/config
+    environment:
+      - MYSQL_ROOT_PASSWORD=stronger_password
+      - MYSQL_PASSWORD=strong_password
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+
+  homeassistant:
+    container_name: home-assistant
+    image: homeassistant/home-assistant:stable
+    volumes:
+      - ./volumes/homeassistant:/config
+    devices:
+      - /dev/ttyUSB0:/dev/zwave
+      - /dev/ttyUSB1:/dev/zigbee
+    environment:
+      - TZ=America/Los_Angeles
+    ports:
+      - 8123:8123
+    restart: always
+    network_mode: host
