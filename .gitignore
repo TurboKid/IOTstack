@@ -1,4 +1,5 @@
 #ignore data folders for containers
 /services/
 /backups/
+/volumes/influxdb
 .outofdate
