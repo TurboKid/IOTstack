@@ -1,0 +1,658 @@
+Jul 14, 2020 02:59:48.725 [0xb3cfd450] INFO - Plex Media Server v1.19.4.2935-79e214ead - Docker Docker Container (LinuxServer.io) armv7l - build: linux-armv7hf_neon debian - GMT 00:00
+Jul 14, 2020 02:59:48.742 [0xb3cfd450] INFO - Linux version: 4.19.118-v7l+, language: en-US
+Jul 14, 2020 02:59:48.742 [0xb3cfd450] INFO - Processor Arm
+Jul 14, 2020 02:59:48.742 [0xb3cfd450] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Jul 14, 2020 02:59:48.869 [0xb6f59970] DEBUG - BPQ: [Idle] -> [Starting]
+Jul 14, 2020 02:59:48.994 [0xb6f59970] DEBUG - FeatureManager: Using cached data for features list
+Jul 14, 2020 02:59:49.011 [0xb6f59970] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+Jul 14, 2020 02:59:49.091 [0xb6f59970] INFO - SQLITE3:0x126, 283, recovered 2 frames from WAL file /config/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.db-wal
+Jul 14, 2020 02:59:49.270 [0xb6f59970] DEBUG - Running migrations. (EPG 0)
+Jul 14, 2020 02:59:49.293 [0xb6f59970] DEBUG - ChangestampAllocator: initialized to 8391166479293510432
+Jul 14, 2020 02:59:49.293 [0xb6f59970] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.26.0, threadsafe=1
+Jul 14, 2020 02:59:49.393 [0xb6f59970] DEBUG - Running migrations. (EPG 0)
+Jul 14, 2020 02:59:49.496 [0xb6f59970] DEBUG - CERT: Installed certificate with fingerprint 4d:59:5b:fb:9b:a5:99:7d:24:34:d1:e6:ac:c6:69:81:c7:c9:9d:f5.
+Jul 14, 2020 02:59:49.496 [0xb6f59970] DEBUG - CERT: Installed new private key.
+Jul 14, 2020 02:59:49.496 [0xb6f59970] DEBUG - CERT: Subject name is /C=US/ST=California/L=Los Gatos/O=Plex, Inc./CN=*.165da40e1bc54b40adc72671a9de5129.plex.direct
+Jul 14, 2020 02:59:49.503 [0xb6f59970] DEBUG - CERT: OCSP requests for stapling will be made to 'http://ocspx.digicert.com/'.
+Jul 14, 2020 02:59:49.517 [0xb6f59970] INFO - OCSP: Successfully retrieved response from cache.
+Jul 14, 2020 02:59:49.517 [0xb6f59970] DEBUG - CERT: Installed intermediate certificate.
+Jul 14, 2020 02:59:49.517 [0xb6f59970] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Jul 14, 2020 02:59:49.518 [0xb6f59970] DEBUG - HttpServer: Listening on port 32400.
+Jul 14, 2020 02:59:49.534 [0xb6f59970] DEBUG - HttpServer: Listening on port 32401.
+Jul 14, 2020 02:59:49.837 [0xb2afe450] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 14, 2020 02:59:49.856 [0xb6f59970] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Jul 14, 2020 02:59:49.866 [0xb10fd450] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 14, 2020 02:59:49.869 [0xb6f59970] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 14, 2020 02:59:49.876 [0xb10fd450] DEBUG - Relay: read 0 cached entries from hosts file
+Jul 14, 2020 02:59:49.877 [0xb10fd450] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:49.877 [0xb6f59970] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 14, 2020 02:59:49.888 [0xb6f59970] DEBUG - MyPlex: updating with 5 access tokens
+Jul 14, 2020 02:59:49.889 [0xaf2fe450] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jul 14, 2020 02:59:49.898 [0xaf2fe450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 14, 2020 02:59:49.902 [0xb6f59970] DEBUG - Opening 1 database sessions to library (), SQLite 3.26.0, threadsafe=1
+Jul 14, 2020 02:59:49.911 [0xb2afe450] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 14, 2020 02:59:49.925 [0xaf2fe450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:49.925 [0xaf2fe450] WARN - HTTP error requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1 (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:49.926 [0xaf2fe450] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 14, 2020 02:59:49.926 [0xaf2fe450] DEBUG - MyPlex: updating with 5 access tokens
+Jul 14, 2020 02:59:49.927 [0xb10fd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:49.927 [0xb10fd450] WARN - HTTP error requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:49.927 [0xb10fd450] ERROR - Error parsing content.
+Jul 14, 2020 02:59:49.936 [0xb06ff450] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead" changed: -1 => 2020-06-25 04:51:11 (1593060671).
+Jul 14, 2020 02:59:49.946 [0xb06ff450] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2020-07-01 21:09:15 (1593637755).
+Jul 14, 2020 02:59:49.946 [0xb06ff450] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead"
+Jul 14, 2020 02:59:49.951 [0xb10fd450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 02:59:49.952 [0xb10fd450] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:49.953 [0xb10fd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:49.953 [0xb10fd450] WARN - HTTP error requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:49.954 [0xb10fd450] ERROR - Error parsing content.
+Jul 14, 2020 02:59:49.954 [0xb10fd450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 02:59:50.187 [0xb06ff450] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Jul 14, 2020 02:59:50.200 [0xb06ff450] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Jul 14, 2020 02:59:50.200 [0xb06ff450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/System.bundle.
+Jul 14, 2020 02:59:50.201 [0xb06ff450] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Jul 14, 2020 02:59:50.209 [0xb06ff450] DEBUG - Starting file watcher for com.plexapp.system
+Jul 14, 2020 02:59:50.216 [0xb06ff450] DEBUG - Spawned plug-in com.plexapp.system with PID 325
+Jul 14, 2020 02:59:50.219 [0xb06ff450] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Jul 14, 2020 02:59:50.379 [0xaf2fe450] DEBUG - Job running: '/usr/lib/plexmediaserver/CrashUploader' '--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.19.4.2935-79e214ead' '--version=1.19.4.2935-79e214ead' '--platform=Linux' '--platformVersion=4.19.118-v7l+' '--serverUuid=3b29a1215a3bfb1462612680db6203f645e3a575' '--userId=7jrf6nvnm8@privaterelay.appleid.com' '--sentryUrl=https://sentry.io/api/1233455/minidump' '--sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' '--vendor=Docker' '--model=armv7l' '--device=Docker Container (LinuxServer.io)'
+Jul 14, 2020 02:59:50.382 [0xaf2fe450] DEBUG - Jobs: Starting child process with pid 326
+Jul 14, 2020 02:59:50.502 [0xb32ff450] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 326 is 0 (success)
+Jul 14, 2020 02:59:58.348 [0xb06ff450] DEBUG - Reading 486 bytes in the body, code is 200
+Jul 14, 2020 02:59:58.348 [0xb06ff450] DEBUG - [com.plexapp.system] Plug-in running on port 46371.
+Jul 14, 2020 02:59:58.348 [0xb06ff450] DEBUG -  * Plug-in handles prefix: /system
+Jul 14, 2020 02:59:58.348 [0xb06ff450] DEBUG -  * Plug-in handles prefix: /player
+Jul 14, 2020 02:59:58.348 [0xb06ff450] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Jul 14, 2020 02:59:58.349 [0xb06ff450] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Jul 14, 2020 02:59:58.349 [0xb06ff450] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Jul 14, 2020 02:59:58.349 [0xb06ff450] DEBUG - Updating the list of agents known by the system.
+Jul 14, 2020 02:59:58.349 [0xb06ff450] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Jul 14, 2020 02:59:58.350 [0xb06ff450] DEBUG - HTTP requesting GET http://127.0.0.1:46371/system/agents
+Jul 14, 2020 02:59:58.355 [0xb6f59970] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Jul 14, 2020 02:59:58.361 [0xb6f59970] DEBUG - Transcoder: Cleaning old transcode directories.
+Jul 14, 2020 02:59:58.366 [0xb6f59970] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 14, 2020 02:59:58.367 [0xb6f59970] DEBUG - MyPlex: updating with 5 access tokens
+Jul 14, 2020 02:59:58.367 [0xb6f59970] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Jul 14, 2020 02:59:58.367 [0xaf2fe450] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.370 [0xb6f59970] DEBUG - MyPlex: username is 7jrf6nvnm8@privaterelay.appleid.com, login is 7jrf6nvnm8@privaterelay.appleid.com, home is 0, no pin
+Jul 14, 2020 02:59:58.371 [0xaf2fe450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.371 [0xaf2fe450] WARN - HTTP error requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.371 [0xaf2fe450] ERROR - Error parsing content.
+Jul 14, 2020 02:59:58.371 [0xaf2fe450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 02:59:58.383 [0xb6f59970] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
+Jul 14, 2020 02:59:58.383 [0xb6f59970] DEBUG - NetworkInterface: Starting watch thread.
+Jul 14, 2020 02:59:58.383 [0xacefd450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Jul 14, 2020 02:59:58.385 [0xb6f59970] DEBUG - Network change.
+Jul 14, 2020 02:59:58.385 [0xb6f59970] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 14, 2020 02:59:58.387 [0xacefd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.387 [0xacefd450] WARN - HTTP error requesting GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1 (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.387 [0xacefd450] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Jul 14, 2020 02:59:58.388 [0xacefd450] DEBUG - MyPlex: username is 7jrf6nvnm8@privaterelay.appleid.com, login is 7jrf6nvnm8@privaterelay.appleid.com, home is 0, no pin
+Jul 14, 2020 02:59:58.389 [0xb6f59970] DEBUG - Detected primary interface: 0.0.0.0
+Jul 14, 2020 02:59:58.389 [0xb6f59970] DEBUG - Network interfaces:
+Jul 14, 2020 02:59:58.390 [0xb6f59970] DEBUG -  * 1 lo (127.0.0.1) (loopback: 1)
+Jul 14, 2020 02:59:58.390 [0xb6f59970] DEBUG -  * 4 docker0 (172.17.0.1) (loopback: 0)
+Jul 14, 2020 02:59:58.390 [0xb6f59970] DEBUG -  * 5 br-b6929a5e67b4 (172.18.0.1) (loopback: 0)
+Jul 14, 2020 02:59:58.390 [0xb6f59970] DEBUG -  * 1 lo (::1) (loopback: 1)
+Jul 14, 2020 02:59:58.390 [0xb6f59970] DEBUG -  * 2 eth0 (fe80::dea6:32ff:fe0a:3ce2%eth0) (loopback: 0)
+Jul 14, 2020 02:59:58.390 [0xb6f59970] DEBUG -  * 5 br-b6929a5e67b4 (fe80::42:48ff:fe27:7604%br-b6929a5e67b4) (loopback: 0)
+Jul 14, 2020 02:59:58.390 [0xacefd450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/geoip
+Jul 14, 2020 02:59:58.390 [0xb6f59970] DEBUG -  * 7 vethcacde95 (fe80::ecc2:e3ff:fe43:aecf%vethcacde95) (loopback: 0)
+Jul 14, 2020 02:59:58.391 [0xb6f59970] DEBUG -  * 9 veth9be462f (fe80::13:bbff:fe57:b4ee%veth9be462f) (loopback: 0)
+Jul 14, 2020 02:59:58.391 [0xb6f59970] DEBUG -  * 11 vethd22f644 (fe80::9844:bdff:fea9:fe9e%vethd22f644) (loopback: 0)
+Jul 14, 2020 02:59:58.391 [0xb6f59970] DEBUG -  * 13 veth5022d66 (fe80::29:d8ff:feed:ee7d%veth5022d66) (loopback: 0)
+Jul 14, 2020 02:59:58.391 [0xb6f59970] DEBUG -  * 15 veth29027f4 (fe80::b494:44ff:fe4c:9b29%veth29027f4) (loopback: 0)
+Jul 14, 2020 02:59:58.391 [0xb6f59970] DEBUG - Creating NetworkServices singleton.
+Jul 14, 2020 02:59:58.391 [0xac6fc450] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Jul 14, 2020 02:59:58.392 [0xb6f59970] DEBUG - NetworkServices: Initializing...
+Jul 14, 2020 02:59:58.392 [0xb6f59970] DEBUG - NetworkService: Creating new service.
+Jul 14, 2020 02:59:58.392 [0xb6f59970] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 14, 2020 02:59:58.392 [0xb6f59970] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 14, 2020 02:59:58.392 [0xb6f59970] DEBUG - NetworkService: Creating new service.
+Jul 14, 2020 02:59:58.393 [0xacefd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.393 [0xacefd450] WARN - HTTP error requesting GET https://plex.tv/api/v2/geoip (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Creating new service.
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Creating new service.
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 14, 2020 02:59:58.393 [0xacefd450] WARN - MyPlex: failed to update country code, response returned code -6
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Creating new service.
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Creating new service.
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jul 14, 2020 02:59:58.393 [0xb6f59970] DEBUG - NetworkService: Quick dispatch of network change.
+Jul 14, 2020 02:59:58.393 [0xacefd450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.395 [0xab6fa450] DEBUG - Network change for advertiser.
+Jul 14, 2020 02:59:58.395 [0xab6fa450] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Jul 14, 2020 02:59:58.396 [0xacefd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.396 [0xacefd450] WARN - HTTP error requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.396 [0xacefd450] DEBUG - [Analytics] Using cached data for privacy preferences
+Jul 14, 2020 02:59:58.400 [0xacefd450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.403 [0xacefd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.403 [0xacefd450] WARN - HTTP error requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.404 [0xacefd450] DEBUG - [AutoUpdateRequestHandler] Using cached data for update channels
+Jul 14, 2020 02:59:58.405 [0xab6fa450] ERROR - NetworkService: Couldn't join multicast group: set_option: No such device
+Jul 14, 2020 02:59:58.406 [0xacefd450] DEBUG - Sync: onMyPlexSignIn
+Jul 14, 2020 02:59:58.406 [0xacefd450] WARN - Sync: Couldn't get sync lists without subscription.
+Jul 14, 2020 02:59:58.409 [0xab6fa450] ERROR - Error broadcasting message: send_to: Network is unreachable
+Jul 14, 2020 02:59:58.410 [0xab6fa450] DEBUG - Network change for advertiser.
+Jul 14, 2020 02:59:58.410 [0xab6fa450] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Jul 14, 2020 02:59:58.410 [0xb6f59970] DEBUG - Starting HTTP server.
+Jul 14, 2020 02:59:58.410 [0xb6f59970] DEBUG - Running server...
+Jul 14, 2020 02:59:58.410 [0xab6fa450] ERROR - NetworkService: Couldn't join multicast group: set_option: No such device
+Jul 14, 2020 02:59:58.411 [0xb6f59970] DEBUG - Waiting for server condition to be signaled.
+Jul 14, 2020 02:59:58.411 [0xab6fa450] ERROR - Error broadcasting message: send_to: Network is unreachable
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - Network change for advertiser.
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Jul 14, 2020 02:59:58.411 [0xab6fa450] ERROR - NetworkService: Couldn't join multicast group: set_option: No such device
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Jul 14, 2020 02:59:58.411 [0xab6fa450] ERROR - NetworkService: Couldn't join multicast group: set_option: No such device
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 1)
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 1)
+Jul 14, 2020 02:59:58.411 [0xabefb450] DEBUG - Plex Tuner Service starting.
+Jul 14, 2020 02:59:58.411 [0xabefb450] DEBUG - Job running: '/usr/lib/plexmediaserver/Plex Tuner Service' '/usr/lib/plexmediaserver/Resources/Tuner/Private' '/usr/lib/plexmediaserver/Resources/Tuner/Shared' '1.19.4.2935-79e214ead' '32600' '/waitmutex'
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Jul 14, 2020 02:59:58.411 [0xab6fa450] ERROR - NetworkService: Couldn't join multicast group: set_option: No such device
+Jul 14, 2020 02:59:58.411 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 0)
+Jul 14, 2020 02:59:58.413 [0xacefd450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.414 [0xabefb450] DEBUG - Jobs: Starting child process with pid 369
+Jul 14, 2020 02:59:58.415 [0xacefd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.415 [0xacefd450] WARN - HTTP error requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.416 [0xacefd450] DEBUG - FeatureManager: Using cached data for features list
+Jul 14, 2020 02:59:58.418 [0xafcff450] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.416 [0xaaef9450] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Jul 14, 2020 02:59:58.421 [0xaaef9450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.421 [0xafcff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.421 [0xafcff450] WARN - HTTP error requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.422 [0xafcff450] ERROR - Error parsing content.
+Jul 14, 2020 02:59:58.422 [0xafcff450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 02:59:58.423 [0xacefd450] DEBUG - EventSource: Resolving 184.105.148.82 port 443
+Jul 14, 2020 02:59:58.425 [0xacefd450] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jul 14, 2020 02:59:58.425 [0xacefd450] DEBUG - HTTP requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.426 [0xaaef9450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.426 [0xaaef9450] WARN - HTTP error requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.426 [0xa9ef7450] DEBUG - Request: [127.0.0.1:49398 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (5 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.426 [0xaaef9450] DEBUG - [Analytics] Using cached data for privacy preferences
+Jul 14, 2020 02:59:58.426 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49400 (Loopback)] GET / (5 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.426 [0xa8ef5450] DEBUG - Request: [127.0.0.1:49402 (Loopback)] GET / (5 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.426 [0xa86f4450] DEBUG - Request: [127.0.0.1:49404 (Loopback)] GET /servers (5 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.428 [0xacefd450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.428 [0xacefd450] WARN - HTTP error requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.428 [0xa76f2450] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Unknown'.
+Jul 14, 2020 02:59:58.428 [0xa76f2450] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jul 14, 2020 02:59:58.429 [0xaaef9450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.429 [0xacefd450] WARN - MyPlex: Updating device connections failed, retrying in 10 seconds.
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale ko
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale en
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale sv
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale sr
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale ja_JP
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale pl
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale nl
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale de
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale it
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale cs_CZ
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale hu
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale nl_BE
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale et_EE
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale lt
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale es
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale ro
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale no
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale af
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale fi
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale zh_CN
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale he
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale hu_HU
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale hr_HR
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale da
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale ru
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale pt_BR
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale ar
+Jul 14, 2020 02:59:58.431 [0xa9ef7450] DEBUG - Translator: Found locale fr
+Jul 14, 2020 02:59:58.433 [0xb20ff450] DEBUG - EventSource: Resolved 184.105.148.82 to 184.105.148.82
+Jul 14, 2020 02:59:58.433 [0xb20ff450] DEBUG - EventSource: Failure in Connect (101 - Network is unreachable).
+Jul 14, 2020 02:59:58.433 [0xb20ff450] ERROR - EventSource: Retrying in 15 seconds.
+Jul 14, 2020 02:59:58.435 [0xa76f2450] DEBUG - MyPlex: Sending Server Info to myPlex (user=7jrf6nvnm8@privaterelay.appleid.com, ip=, port=0)
+Jul 14, 2020 02:59:58.436 [0xa76f2450] DEBUG - HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.437 [0xa76f2450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.437 [0xa76f2450] WARN - HTTP error requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.438 [0xa76f2450] DEBUG - MyPlex: Published Mapping State response was -6
+Jul 14, 2020 02:59:58.438 [0xa76f2450] WARN - MyPlex: Invalid response when mapping state (code=-6): 
+Jul 14, 2020 02:59:58.438 [0xa76f2450] DEBUG - MyPlex: updating mapped state - current state: 'Unknown'
+Jul 14, 2020 02:59:58.438 [0xa76f2450] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published (No server)'.
+Jul 14, 2020 02:59:58.439 [0xacefd450] DEBUG - CERT: Certificate will not expire soon.
+Jul 14, 2020 02:59:58.440 [0xaaef9450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.440 [0xaaef9450] WARN - HTTP error requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.440 [0xaaef9450] DEBUG - [AutoUpdateRequestHandler] Using cached data for update channels
+Jul 14, 2020 02:59:58.441 [0xaaef9450] DEBUG - Running database fix-ups.
+Jul 14, 2020 02:59:58.444 [0xaaef9450] DEBUG - Database Fixups: Destroyed 0 transient items.
+Jul 14, 2020 02:59:58.460 [0xaaef9450] DEBUG - Collections: Found 0 collections tags in section 1.
+Jul 14, 2020 02:59:58.460 [0xaaef9450] DEBUG - Collections: We had 0 collections in the library already.
+Jul 14, 2020 02:59:58.460 [0xaaef9450] DEBUG - Collections: Synced tags in section 1 in 0ms.
+Jul 14, 2020 02:59:58.461 [0xaaef9450] DEBUG - Collections: Refreshed attributes for 0 collections in section 1 in 1ms.
+Jul 14, 2020 02:59:58.463 [0xaaef9450] DEBUG - Collection: Refreshed visibility in section 1 in 1ms.
+Jul 14, 2020 02:59:58.464 [0xaaef9450] DEBUG - Collections: Found 0 collections tags in section 2.
+Jul 14, 2020 02:59:58.464 [0xaaef9450] DEBUG - Collections: We had 0 collections in the library already.
+Jul 14, 2020 02:59:58.464 [0xaaef9450] DEBUG - Collections: Synced tags in section 2 in 0ms.
+Jul 14, 2020 02:59:58.465 [0xaaef9450] DEBUG - Collections: Refreshed attributes for 0 collections in section 2 in 0ms.
+Jul 14, 2020 02:59:58.466 [0xaaef9450] DEBUG - Collection: Refreshed visibility in section 2 in 1ms.
+Jul 14, 2020 02:59:58.466 [0xaaef9450] DEBUG - Running database fix-ups completed in 0.0 seconds.
+Jul 14, 2020 02:59:58.467 [0xaaef9450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.469 [0xaaef9450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.469 [0xaaef9450] WARN - HTTP error requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.469 [0xaaef9450] DEBUG - FeatureManager: Using cached data for features list
+Jul 14, 2020 02:59:58.470 [0xb2afe450] DEBUG - DVR: Starting up.
+Jul 14, 2020 02:59:58.472 [0xb2afe450] DEBUG - Activity: registered new activity 09f0e579-c030-4350-ba61-af693fdac8ff - Processing subscriptions
+Jul 14, 2020 02:59:58.472 [0xb2afe450] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 02:59:58.472 [0xaaef9450] ERROR - getaddrinfo(172-17-0-1.abcdefghijklmnopqrstuvwxyz012345.plex.direct) failed: -3
+Jul 14, 2020 02:59:58.472 [0xaaef9450] DEBUG - Network: 172-17-0-1.abcdefghijklmnopqrstuvwxyz012345.plex.direct failed to resolve to 172.17.0.1 but instead yielded ""
+Jul 14, 2020 02:59:58.479 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49404] 200 GET /servers (5 live) GZIP 58ms 490 bytes
+Jul 14, 2020 02:59:58.480 [0xb2afe450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 02:59:58.480 [0xb2afe450] WARN - HTTP error requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 02:59:58.481 [0xb2afe450] ERROR - Error parsing content.
+Jul 14, 2020 02:59:58.481 [0xb2afe450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 02:59:58.483 [0xa9ef7450] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 14, 2020 02:59:58.483 [0xa9ef7450] DEBUG - HTTP requesting GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 14, 2020 02:59:58.507 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49400] 200 GET / (4 live) GZIP 90ms 2645 bytes
+Jul 14, 2020 02:59:58.509 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49402] 200 GET / (3 live) GZIP 89ms 2645 bytes
+Jul 14, 2020 02:59:58.514 [0xa86f4450] DEBUG - Request: [127.0.0.1:49466 (Loopback)] GET / (3 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.516 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49466] 200 GET / (3 live) GZIP 2ms 2645 bytes
+Jul 14, 2020 02:59:58.545 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49468 (Loopback)] GET / (3 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.547 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49468] 200 GET / (3 live) GZIP 2ms 2645 bytes
+Jul 14, 2020 02:59:58.606 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49470 (Loopback)] GET /library/sections (3 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.611 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49470] 200 GET /library/sections (3 live) GZIP 4ms 863 bytes
+Jul 14, 2020 02:59:58.685 [0xa86f4450] DEBUG - Request: [127.0.0.1:49472 (Loopback)] GET /channels/all (3 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.686 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49472] 200 GET /channels/all (3 live) GZIP 1ms 387 bytes
+Jul 14, 2020 02:59:58.709 [0xac6fc450] DEBUG - NetworkInterface: received Netlink message len=356, type=RTM_NEWLINK, flags=0x0
+Jul 14, 2020 02:59:58.709 [0xac6fc450] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=11, flags=0x11043, change=0x0
+Jul 14, 2020 02:59:58.709 [0xac6fc450] DEBUG - Network change.
+Jul 14, 2020 02:59:58.709 [0xac6fc450] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 14, 2020 02:59:58.710 [0xac6fc450] DEBUG - Network change notification but nothing changed.
+Jul 14, 2020 02:59:58.779 [0xa8ef5450] DEBUG - Request: [127.0.0.1:49474 (Loopback)] GET /library/sections (3 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.782 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49474] 200 GET /library/sections (3 live) GZIP 3ms 863 bytes
+Jul 14, 2020 02:59:58.789 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49476 (Loopback)] GET /channels/all (3 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 02:59:58.790 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49476] 200 GET /channels/all (3 live) GZIP 0ms 387 bytes
+Jul 14, 2020 02:59:59.276 [0xa9ef7450] DEBUG - HTTP 200 response from GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 14, 2020 02:59:59.277 [0xa9ef7450] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59988 bytes of content.
+Jul 14, 2020 02:59:59.286 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49398] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) GZIP 870ms 19356 bytes
+Jul 14, 2020 02:59:59.317 [0xb06ff450] DEBUG - HTTP 200 response from GET http://127.0.0.1:46371/system/agents
+Jul 14, 2020 02:59:59.317 [0xb06ff450] DEBUG - [com.plexapp.system] HTTP reply status 200, with 12079 bytes of content.
+Jul 14, 2020 02:59:59.327 [0xb06ff450] DEBUG - The system knows about 15 agents.
+Jul 14, 2020 02:59:59.328 [0xacefd450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LastFM.bundle.
+Jul 14, 2020 02:59:59.332 [0xb06ff450] DEBUG - Waiting for 20 plug-ins to finish starting.
+Jul 14, 2020 02:59:59.332 [0xa76f2450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/TheTVDB.bundle.
+Jul 14, 2020 02:59:59.332 [0xa96f6450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/MoviePosterDB.bundle.
+Jul 14, 2020 02:59:59.333 [0xacefd450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Jul 14, 2020 02:59:59.333 [0xacefd450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/WebClient.bundle.
+Jul 14, 2020 02:59:59.334 [0xacefd450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LocalMedia.bundle.
+Jul 14, 2020 02:59:59.336 [0xa76f2450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Jul 14, 2020 02:59:59.336 [0xa76f2450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/LyricFind.bundle.
+Jul 14, 2020 02:59:59.338 [0xa96f6450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Jul 14, 2020 02:59:59.340 [0xa96f6450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMovieNew.bundle.
+Jul 14, 2020 02:59:59.340 [0xacefd450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Jul 14, 2020 02:59:59.340 [0xacefd450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PersonalMedia.bundle.
+Jul 14, 2020 02:59:59.339 [0xa76f2450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Jul 14, 2020 02:59:59.340 [0xa76f2450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/HTbackdrops.bundle.
+Jul 14, 2020 02:59:59.342 [0xa96f6450] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.movie] yet.
+Jul 14, 2020 02:59:59.344 [0xa76f2450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Jul 14, 2020 02:59:59.345 [0xa76f2450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Fanart-TV.bundle.
+Jul 14, 2020 02:59:59.346 [0xa96f6450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/TheMovieDB.bundle.
+Jul 14, 2020 02:59:59.347 [0xa76f2450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Jul 14, 2020 02:59:59.348 [0xa76f2450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Scanners.bundle.
+Jul 14, 2020 02:59:59.349 [0xa76f2450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMovie.bundle.
+Jul 14, 2020 02:59:59.349 [0xac6fc450] DEBUG - NetworkInterface: received Netlink message len=356, type=RTM_NEWLINK, flags=0x0
+Jul 14, 2020 02:59:59.349 [0xac6fc450] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=13, flags=0x11043, change=0x0
+Jul 14, 2020 02:59:59.349 [0xac6fc450] DEBUG - Network change.
+Jul 14, 2020 02:59:59.349 [0xac6fc450] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 14, 2020 02:59:59.349 [0xacefd450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Jul 14, 2020 02:59:59.350 [0xac6fc450] DEBUG - Network change notification but nothing changed.
+Jul 14, 2020 02:59:59.350 [0xac6fc450] DEBUG - NetworkInterface: received Netlink message len=356, type=RTM_NEWLINK, flags=0x0
+Jul 14, 2020 02:59:59.350 [0xac6fc450] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=15, flags=0x11043, change=0x0
+Jul 14, 2020 02:59:59.350 [0xac6fc450] DEBUG - Network change.
+Jul 14, 2020 02:59:59.350 [0xac6fc450] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 14, 2020 02:59:59.351 [0xac6fc450] DEBUG - Network change notification but nothing changed.
+Jul 14, 2020 02:59:59.351 [0xac6fc450] DEBUG - NetworkInterface: received Netlink message len=356, type=RTM_NEWLINK, flags=0x0
+Jul 14, 2020 02:59:59.351 [0xac6fc450] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=9, flags=0x11043, change=0x0
+Jul 14, 2020 02:59:59.351 [0xac6fc450] DEBUG - Network change.
+Jul 14, 2020 02:59:59.351 [0xac6fc450] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 14, 2020 02:59:59.353 [0xac6fc450] DEBUG - Network change notification but nothing changed.
+Jul 14, 2020 02:59:59.353 [0xac6fc450] DEBUG - NetworkInterface: received Netlink message len=356, type=RTM_NEWLINK, flags=0x0
+Jul 14, 2020 02:59:59.353 [0xac6fc450] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=7, flags=0x11043, change=0x0
+Jul 14, 2020 02:59:59.353 [0xac6fc450] DEBUG - Network change.
+Jul 14, 2020 02:59:59.353 [0xac6fc450] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 14, 2020 02:59:59.355 [0xac6fc450] DEBUG - Network change notification but nothing changed.
+Jul 14, 2020 02:59:59.356 [0xa96f6450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Jul 14, 2020 02:59:59.357 [0xa96f6450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Media-Flags.bundle.
+Jul 14, 2020 02:59:59.357 [0xacefd450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Framework.bundle.
+Jul 14, 2020 02:59:59.358 [0xa96f6450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/OpenSubtitles.bundle.
+Jul 14, 2020 02:59:59.358 [0xacefd450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexThemeMusic.bundle.
+Jul 14, 2020 02:59:59.360 [0xa76f2450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Jul 14, 2020 02:59:59.361 [0xa76f2450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/Musicbrainz.bundle.
+Jul 14, 2020 02:59:59.363 [0xa96f6450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+Jul 14, 2020 02:59:59.363 [0xa96f6450] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-79e214ead/PlexMusic.bundle.
+Jul 14, 2020 02:59:59.365 [0xa76f2450] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Jul 14, 2020 02:59:59.365 [0xa76f2450] DEBUG - Starting plug-in /config/Library/Application Support/Plex Media Server/Plug-ins/Services.bundle.
+Jul 14, 2020 02:59:59.368 [0xa96f6450] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.music] yet.
+Jul 14, 2020 02:59:59.370 [0xacefd450] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Jul 14, 2020 02:59:59.372 [0xb06ff450] DEBUG - Starting scheduled updates, every 3600 seconds
+Jul 14, 2020 02:59:59.373 [0xb06ff450] INFO - LibraryUpdateManager path watching is disabled
+Jul 14, 2020 02:59:59.373 [0xb06ff450] DEBUG - Done waiting for all plug-ins to start.
+Jul 14, 2020 02:59:59.373 [0xb06ff450] ERROR - Error broadcasting message: send_to: Network is unreachable
+Jul 14, 2020 02:59:59.373 [0xb06ff450] DEBUG - PluginRepository::setStartState: 3, complete
+Jul 14, 2020 02:59:59.378 [0xa6ef1450] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 14, 2020 02:59:59.379 [0xa6ef1450] DEBUG - Starting file watcher for com.plexapp.agents.imdb
+Jul 14, 2020 02:59:59.389 [0xa6ef1450] DEBUG - Spawned plug-in com.plexapp.agents.imdb with PID 411
+Jul 14, 2020 02:59:59.389 [0xa6ef1450] DEBUG - [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Jul 14, 2020 02:59:59.838 [0xaf2fe450] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Jul 14, 2020 02:59:59.845 [0xaf2fe450] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Jul 14, 2020 02:59:59.850 [0xaf2fe450] DEBUG - HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Jul 14, 2020 03:00:01.429 [0xadeff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:01.570 [0xa8ef5450] DEBUG - Request: [127.0.0.1:49486 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:01.570 [0xa8ef5450] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 14, 2020 03:00:01.570 [0xa8ef5450] DEBUG - HTTP requesting GET http://127.0.0.1:46371/system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 14, 2020 03:00:01.703 [0xa8ef5450] DEBUG - HTTP 200 response from GET http://127.0.0.1:46371/system/messaging/clear_events/com.plexapp.agents.imdb
+Jul 14, 2020 03:00:01.703 [0xa8ef5450] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jul 14, 2020 03:00:01.703 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49486] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (2 live) GZIP 133ms 280 bytes
+Jul 14, 2020 03:00:01.977 [0xa86f4450] DEBUG - Request: [127.0.0.1:49492 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:01.977 [0xa86f4450] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Jul 14, 2020 03:00:01.977 [0xa86f4450] DEBUG - HTTP requesting GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/resourceHashes
+Jul 14, 2020 03:00:01.993 [0xa86f4450] DEBUG - HTTP 404 response from GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/resourceHashes
+Jul 14, 2020 03:00:01.993 [0xa86f4450] DEBUG - [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+Jul 14, 2020 03:00:01.994 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49492] 404 GET /:/plugins/com.plexapp.system/resourceHashes (2 live) GZIP 17ms 261 bytes
+Jul 14, 2020 03:00:02.168 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49498 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:02.169 [0xaa6f8450] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 14, 2020 03:00:02.169 [0xaa6f8450] DEBUG - HTTP requesting GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 14, 2020 03:00:02.205 [0xa9ef7450] DEBUG - Request: [127.0.0.1:49504 (Loopback)] GET / (3 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:02.207 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49504] 200 GET / (3 live) GZIP 2ms 2634 bytes
+Jul 14, 2020 03:00:02.298 [0xaf2fe450] DEBUG - HTTP 200 response from POST http://127.0.0.1:32600/devices/discover
+Jul 14, 2020 03:00:02.330 [0xaa6f8450] DEBUG - HTTP 200 response from GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jul 14, 2020 03:00:02.330 [0xaa6f8450] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59988 bytes of content.
+Jul 14, 2020 03:00:02.339 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49498] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) GZIP 170ms 19356 bytes
+Jul 14, 2020 03:00:03.395 [0xab6fa450] DEBUG - NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (black-pearl)
+Jul 14, 2020 03:00:03.396 [0xab6fa450] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Jul 14, 2020 03:00:03.396 [0xab6fa450] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Jul 14, 2020 03:00:03.396 [0xab6fa450] DEBUG - HTTP requesting GET http://127.0.0.1:46371/system/notify/serverUpdated?host=127.0.0.1
+Jul 14, 2020 03:00:03.419 [0xafcff450] DEBUG - HTTP requesting GET https://plex.tv/services/pubsub/servers
+Jul 14, 2020 03:00:03.432 [0xafcff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:03.432 [0xafcff450] WARN - HTTP error requesting GET https://plex.tv/services/pubsub/servers (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:00:03.460 [0xa86f4450] DEBUG - Request: [127.0.0.1:49514 (Loopback)] GET /servers (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:03.461 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49514] 200 GET /servers (2 live) GZIP 1ms 490 bytes
+Jul 14, 2020 03:00:03.484 [0xa9ef7450] DEBUG - Request: [127.0.0.1:49516 (Loopback)] GET /library/sections (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:03.488 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49516] 200 GET /library/sections (2 live) GZIP 3ms 863 bytes
+Jul 14, 2020 03:00:03.517 [0xa8ef5450] DEBUG - Request: [127.0.0.1:49518 (Loopback)] GET /channels/all (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:03.518 [0xb18fe450] DEBUG - Completed: [127.0.0.1:49518] 200 GET /channels/all (2 live) GZIP 1ms 387 bytes
+Jul 14, 2020 03:00:03.534 [0xab6fa450] DEBUG - HTTP 200 response from GET http://127.0.0.1:46371/system/notify/serverUpdated?host=127.0.0.1
+Jul 14, 2020 03:00:03.534 [0xab6fa450] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jul 14, 2020 03:00:03.534 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:04.528 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49520 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:00:04.529 [0xaa6f8450] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 14, 2020 03:00:04.529 [0xaa6f8450] DEBUG - HTTP requesting GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 14, 2020 03:00:04.542 [0xaa6f8450] DEBUG - HTTP 200 response from GET http://127.0.0.1:46371/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jul 14, 2020 03:00:04.542 [0xaa6f8450] DEBUG - [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Jul 14, 2020 03:00:04.543 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49520] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (2 live) GZIP 14ms 415 bytes
+Jul 14, 2020 03:00:04.555 [0xa6ef1450] DEBUG - Reading 148 bytes in the body, code is 200
+Jul 14, 2020 03:00:04.555 [0xa6ef1450] DEBUG - [com.plexapp.agents.imdb] Plug-in running on port 35069.
+Jul 14, 2020 03:00:04.555 [0xa6ef1450] DEBUG - Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Jul 14, 2020 03:00:04.556 [0xa6ef1450] DEBUG - [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Jul 14, 2020 03:00:04.556 [0xa6ef1450] DEBUG - HTTP requesting GET http://127.0.0.1:35069/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 14, 2020 03:00:04.622 [0xa6ef1450] DEBUG - HTTP 200 response from GET http://127.0.0.1:35069/:/plugins/com.plexapp.agents.imdb/prefs
+Jul 14, 2020 03:00:04.622 [0xa6ef1450] DEBUG - [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Jul 14, 2020 03:00:04.622 [0xa6ef1450] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 444b1b430a94f7fdbcb7025f93cbb8ac209c6f32
+Jul 14, 2020 03:00:04.623 [0xa6ef1450] DEBUG - IVA: Downloading trailer lists.
+Jul 14, 2020 03:00:04.624 [0xa6ef1450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:04.625 [0xa6ef1450] ERROR - HTTP -6 downloading url https://meta.plex.tv/t/theater?language=en&subtitleLanguage=en&redband=0
+Jul 14, 2020 03:00:04.625 [0xa6ef1450] ERROR - IVA: Error downloading trailers for source 1.
+Jul 14, 2020 03:00:04.626 [0xa6ef1450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:04.626 [0xa6ef1450] ERROR - HTTP -6 downloading url https://meta.plex.tv/t/video?language=en&subtitleLanguage=en&redband=0
+Jul 14, 2020 03:00:04.626 [0xa6ef1450] ERROR - IVA: Error downloading trailers for source 2.
+Jul 14, 2020 03:00:08.396 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:08.417 [0xadeff450] DEBUG - HTTP requesting GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 03:00:08.419 [0xadeff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:08.419 [0xadeff450] WARN - HTTP error requesting GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:00:08.419 [0xadeff450] ERROR - Error parsing content.
+Jul 14, 2020 03:00:08.419 [0xadeff450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 03:00:08.419 [0xadeff450] DEBUG - Media Server: Tested all servers in 0.0 seconds.
+Jul 14, 2020 03:00:08.431 [0xafcff450] DEBUG - MyPlex: Updating device connections (from timer: 1)
+Jul 14, 2020 03:00:08.431 [0xafcff450] DEBUG - HTTP requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 03:00:08.433 [0xafcff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:08.433 [0xafcff450] WARN - HTTP error requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:00:08.433 [0xafcff450] WARN - MyPlex: Updating device connections failed, retrying in 20 seconds.
+Jul 14, 2020 03:00:08.472 [0xaf2fe450] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jul 14, 2020 03:00:08.474 [0xaf2fe450] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jul 14, 2020 03:00:08.474 [0xaf2fe450] DEBUG - Activity: registered new activity 70a28c80-6bf2-4efd-b6bf-d3bafcb50fca - Processing subscriptions
+Jul 14, 2020 03:00:08.474 [0xaf2fe450] DEBUG - Subscription: Scheduling subscriptions.
+Jul 14, 2020 03:00:08.475 [0xaf2fe450] DEBUG - Subscription: Initialized 0 schedulers.
+Jul 14, 2020 03:00:08.475 [0xaf2fe450] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Jul 14, 2020 03:00:08.475 [0xaf2fe450] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Jul 14, 2020 03:00:08.475 [0xaf2fe450] DEBUG - Activity: Ended activity 70a28c80-6bf2-4efd-b6bf-d3bafcb50fca.
+Jul 14, 2020 03:00:08.475 [0xaf2fe450] DEBUG - Subscription: There are 0 active grabs at the end.
+Jul 14, 2020 03:00:08.475 [0xaf2fe450] DEBUG - Activity: Ended activity 09f0e579-c030-4350-ba61-af693fdac8ff.
+Jul 14, 2020 03:00:08.475 [0xaf2fe450] DEBUG - Subscription: Refreshed all content in 3 ms.
+Jul 14, 2020 03:00:13.396 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:13.433 [0xb18fe450] DEBUG - EventSource: Resolving 184.105.148.82 port 443
+Jul 14, 2020 03:00:13.434 [0xb18fe450] DEBUG - EventSource: Resolved 184.105.148.82 to 184.105.148.82
+Jul 14, 2020 03:00:13.434 [0xb18fe450] DEBUG - EventSource: Failure in Connect (101 - Network is unreachable).
+Jul 14, 2020 03:00:18.397 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:18.434 [0xb18fe450] WARN - PubSubManager: Connection to 184.105.148.82 failed: Connection timed out.
+Jul 14, 2020 03:00:18.434 [0xb18fe450] DEBUG - EventSource: Stopping.
+Jul 14, 2020 03:00:18.434 [0xb18fe450] ERROR - EventSource: Retrying in 30 seconds.
+Jul 14, 2020 03:00:19.711 [0xb2afe450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575
+Jul 14, 2020 03:00:19.713 [0xb2afe450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:19.713 [0xb2afe450] WARN - HTTP error requesting GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575 (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:00:19.714 [0xb2afe450] DEBUG - HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 14, 2020 03:00:19.716 [0xb2afe450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:19.716 [0xb2afe450] WARN - HTTP error requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1 (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:00:19.716 [0xb2afe450] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&includeProfiles=1&includeProviders=1
+Jul 14, 2020 03:00:19.717 [0xb2afe450] DEBUG - MyPlex: updating with 5 access tokens
+Jul 14, 2020 03:00:19.718 [0xafcff450] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 03:00:19.720 [0xafcff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:19.720 [0xafcff450] WARN - HTTP error requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:00:19.721 [0xafcff450] ERROR - Error parsing content.
+Jul 14, 2020 03:00:19.721 [0xafcff450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 03:00:23.397 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:28.398 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:28.436 [0xafcff450] DEBUG - MyPlex: Updating device connections (from timer: 1)
+Jul 14, 2020 03:00:28.436 [0xafcff450] DEBUG - HTTP requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 03:00:28.439 [0xafcff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:00:28.439 [0xafcff450] WARN - HTTP error requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:00:28.440 [0xafcff450] WARN - MyPlex: Updating device connections failed, retrying in 40 seconds.
+Jul 14, 2020 03:00:33.398 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:38.399 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:43.399 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:48.399 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:48.434 [0xb20ff450] DEBUG - EventSource: Resolving 184.105.148.82 port 443
+Jul 14, 2020 03:00:48.435 [0xb20ff450] DEBUG - EventSource: Resolved 184.105.148.82 to 184.105.148.82
+Jul 14, 2020 03:00:48.435 [0xb20ff450] DEBUG - EventSource: Failure in Connect (101 - Network is unreachable).
+Jul 14, 2020 03:00:53.400 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:00:53.434 [0xb20ff450] WARN - PubSubManager: Connection to 184.105.148.82 failed: Connection timed out.
+Jul 14, 2020 03:00:53.435 [0xb20ff450] DEBUG - EventSource: Stopping.
+Jul 14, 2020 03:00:53.435 [0xb20ff450] ERROR - EventSource: Retrying in 60 seconds.
+Jul 14, 2020 03:00:58.400 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:03.401 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:08.401 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:08.442 [0xadeff450] DEBUG - MyPlex: Updating device connections (from timer: 1)
+Jul 14, 2020 03:01:08.443 [0xadeff450] DEBUG - HTTP requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 03:01:08.445 [0xadeff450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:01:08.445 [0xadeff450] WARN - HTTP error requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:01:08.446 [0xadeff450] WARN - MyPlex: Updating device connections failed, retrying in 80 seconds.
+Jul 14, 2020 03:01:13.401 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:18.402 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:23.402 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:28.403 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:33.403 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:38.404 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:43.404 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:48.405 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:48.870 [0xb10fd450] DEBUG - BPQ: [Starting] -> [Processing]
+Jul 14, 2020 03:01:48.872 [0xb10fd450] DEBUG - BPQ: generating queue items from 0 generator(s)
+Jul 14, 2020 03:01:48.872 [0xb10fd450] DEBUG - BPQ: generated 0 item(s) for queue
+Jul 14, 2020 03:01:48.873 [0xb10fd450] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Jul 14, 2020 03:01:48.873 [0xb10fd450] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Jul 14, 2020 03:01:48.874 [0xb10fd450] DEBUG - BPQ: [Processing] -> [Idle]
+Jul 14, 2020 03:01:53.405 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:53.435 [0xb18fe450] DEBUG - EventSource: Resolving 184.105.148.82 port 443
+Jul 14, 2020 03:01:53.436 [0xb18fe450] DEBUG - EventSource: Resolved 184.105.148.82 to 184.105.148.82
+Jul 14, 2020 03:01:53.436 [0xb18fe450] DEBUG - EventSource: Failure in Connect (101 - Network is unreachable).
+Jul 14, 2020 03:01:58.314 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49574 (Loopback)] GET /servers (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:01:58.315 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49574] 200 GET /servers (2 live) GZIP 1ms 490 bytes
+Jul 14, 2020 03:01:58.330 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49576 (Loopback)] GET /library/sections (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:01:58.335 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49576] 200 GET /library/sections (2 live) GZIP 5ms 863 bytes
+Jul 14, 2020 03:01:58.345 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49578 (Loopback)] GET /channels/all (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:01:58.347 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49578] 200 GET /channels/all (2 live) GZIP 1ms 387 bytes
+Jul 14, 2020 03:01:58.364 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49580 (Loopback)] GET /library/sections (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:01:58.370 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49580] 200 GET /library/sections (2 live) GZIP 5ms 863 bytes
+Jul 14, 2020 03:01:58.380 [0xaa6f8450] DEBUG - Request: [127.0.0.1:49582 (Loopback)] GET /channels/all (2 live) GZIP Signed-in Token (7jrf6nvnm8@privaterelay.appleid.com)
+Jul 14, 2020 03:01:58.381 [0xb20ff450] DEBUG - Completed: [127.0.0.1:49582] 200 GET /channels/all (2 live) GZIP 1ms 387 bytes
+Jul 14, 2020 03:01:58.405 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:01:58.435 [0xb18fe450] WARN - PubSubManager: Connection to 184.105.148.82 failed: Connection timed out.
+Jul 14, 2020 03:01:58.435 [0xb18fe450] DEBUG - EventSource: Stopping.
+Jul 14, 2020 03:01:58.435 [0xb18fe450] ERROR - EventSource: Retrying in 120 seconds.
+Jul 14, 2020 03:02:03.406 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:08.407 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:13.407 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:18.408 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:23.408 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:28.408 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:28.448 [0xaf2fe450] DEBUG - MyPlex: Updating device connections (from timer: 1)
+Jul 14, 2020 03:02:28.449 [0xaf2fe450] DEBUG - HTTP requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jul 14, 2020 03:02:28.452 [0xaf2fe450] ERROR - Error issuing curl_easy_perform(handle): 6
+Jul 14, 2020 03:02:28.452 [0xaf2fe450] WARN - HTTP error requesting PUT https://plex.tv/devices/3b29a1215a3bfb1462612680db6203f645e3a575?Connection[][uri]=http://172.18.0.1:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=1&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: plex.tv)
+Jul 14, 2020 03:02:28.452 [0xaf2fe450] WARN - MyPlex: Updating device connections failed, retrying in 160 seconds.
+Jul 14, 2020 03:02:33.409 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:38.409 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:43.410 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:48.411 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:53.411 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:02:58.411 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:03.412 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:08.412 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:13.413 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:18.413 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:23.414 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:28.414 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:33.415 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:38.415 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:43.416 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:48.416 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:53.417 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:58.417 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:03:58.436 [0xb20ff450] DEBUG - EventSource: Resolving 184.105.148.82 port 443
+Jul 14, 2020 03:03:58.436 [0xb20ff450] DEBUG - EventSource: Resolved 184.105.148.82 to 184.105.148.82
+Jul 14, 2020 03:03:58.436 [0xb20ff450] DEBUG - EventSource: Failure in Connect (101 - Network is unreachable).
+Jul 14, 2020 03:04:03.418 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:04:03.436 [0xb20ff450] WARN - PubSubManager: Connection to 184.105.148.82 failed: Connection timed out.
+Jul 14, 2020 03:04:03.436 [0xb20ff450] DEBUG - EventSource: Stopping.
+Jul 14, 2020 03:04:03.436 [0xb20ff450] ERROR - EventSource: Retrying in 240 seconds.
+Jul 14, 2020 03:04:08.418 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:04:13.419 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:04:18.419 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:04:23.420 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:04:28.420 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:04:32.499 [0xac6fc450] DEBUG - NetworkInterface: received Netlink message len=88, type=RTM_DELADDR, flags=0x0
+Jul 14, 2020 03:04:32.499 [0xac6fc450] DEBUG - NetworkInterface: Netlink address message family=2, index=2, flags=0x0
+Jul 14, 2020 03:04:32.499 [0xac6fc450] DEBUG - Network change.
+Jul 14, 2020 03:04:32.499 [0xac6fc450] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG - Detected primary interface: 0.0.0.0
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG - Network interfaces:
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG -  * 1 lo (127.0.0.1) (loopback: 1)
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG -  * 2 eth0 (192.168.40.110) (loopback: 0)
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG -  * 4 docker0 (172.17.0.1) (loopback: 0)
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG -  * 5 br-b6929a5e67b4 (172.18.0.1) (loopback: 0)
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG -  * 1 lo (::1) (loopback: 1)
+Jul 14, 2020 03:04:32.504 [0xac6fc450] DEBUG -  * 2 eth0 (fe80::dea6:32ff:fe0a:3ce2%eth0) (loopback: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG -  * 5 br-b6929a5e67b4 (fe80::42:48ff:fe27:7604%br-b6929a5e67b4) (loopback: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG -  * 7 vethcacde95 (fe80::ecc2:e3ff:fe43:aecf%vethcacde95) (loopback: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG -  * 9 veth9be462f (fe80::13:bbff:fe57:b4ee%veth9be462f) (loopback: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG -  * 11 vethd22f644 (fe80::9844:bdff:fea9:fe9e%vethd22f644) (loopback: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG -  * 13 veth5022d66 (fe80::29:d8ff:feed:ee7d%veth5022d66) (loopback: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG -  * 15 veth29027f4 (fe80::b494:44ff:fe4c:9b29%veth29027f4) (loopback: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Dispatch network change after two second delay.
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Dispatch network change after two second delay.
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Dispatch network change after two second delay.
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Dispatch network change after two second delay.
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Dispatch network change after two second delay.
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+Jul 14, 2020 03:04:32.505 [0xac6fc450] DEBUG - NetworkService: Dispatch network change after two second delay.
+Jul 14, 2020 03:04:32.511 [0xac6fc450] ERROR - getaddrinfo(172-17-0-1.abcdefghijklmnopqrstuvwxyz012345.plex.direct) failed: -3
+Jul 14, 2020 03:04:32.511 [0xac6fc450] DEBUG - Network: 172-17-0-1.abcdefghijklmnopqrstuvwxyz012345.plex.direct failed to resolve to 172.17.0.1 but instead yielded ""
+Jul 14, 2020 03:04:33.421 [0xab6fa450] INFO - NetworkService: Ignoring a packet from this uninteresting interface 172.17.0.1.
+Jul 14, 2020 03:04:34.505 [0xab6fa450] DEBUG - Network change for advertiser.
+Jul 14, 2020 03:04:34.506 [0xab6fa450] DEBUG - Network change for advertiser.
+Jul 14, 2020 03:04:34.506 [0xab6fa450] DEBUG - Network change for advertiser.
+Jul 14, 2020 03:04:34.506 [0xab6fa450] DEBUG - NetworkService: Network change for browser (polled=0), closing 2 browse sockets.
+Jul 14, 2020 03:04:34.506 [0xab6fa450] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Jul 14, 2020 03:04:34.506 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 14, 2020 03:04:34.507 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 192.168.40.110 on broadcast address 192.168.40.255 (index: 1)
+Jul 14, 2020 03:04:34.507 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+Jul 14, 2020 03:04:34.507 [0xab6fa450] DEBUG - NetworkService: Network change for browser (polled=1), closing 2 browse sockets.
+Jul 14, 2020 03:04:34.507 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jul 14, 2020 03:04:34.507 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 192.168.40.110 on broadcast address 192.168.40.255 (index: 1)
+Jul 14, 2020 03:04:34.507 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+Jul 14, 2020 03:04:34.507 [0xab6fa450] DEBUG - NetworkService: Network change for browser (polled=0), closing 1 browse sockets.
+Jul 14, 2020 03:04:34.508 [0xab6fa450] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Jul 14, 2020 03:04:34.508 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 192.168.40.110 on broadcast address 239.255.255.250 (index: 0)
+Jul 14, 2020 03:04:34.508 [0xab6fa450] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+Jul 14, 2020 03:04:34.508 [0xab6fa450] ERROR - Network Service: Error in browser handle read: 125 (Operation canceled) socket=-1
+Jul 14, 2020 03:04:34.608 [0xab6fa450] INFO - Network Service: Abandoning browse socket, it was closed.
+Jul 14, 2020 03:04:34.608 [0xab6fa450] ERROR - Network Service: Error in browser handle read: 125 (Operation canceled) socket=-1
+Jul 14, 2020 03:04:34.709 [0xab6fa450] INFO - Network Service: Abandoning browse socket, it was closed.
+Jul 14, 2020 03:04:34.709 [0xab6fa450] ERROR - Network Service: Error in browser handle read: 125 (Operation canceled) socket=-1
+Jul 14, 2020 03:04:34.809 [0xab6fa450] INFO - Network Service: Abandoning browse socket, it was closed.
+Jul 14, 2020 03:04:34.809 [0xab6fa450] ERROR - Network Service: Error in browser handle read: 125 (Operation canceled) socket=-1
+Jul 14, 2020 03:04:34.909 [0xab6fa450] INFO - Network Service: Abandoning browse socket, it was closed.
+Jul 14, 2020 03:04:34.909 [0xab6fa450] ERROR - Network Service: Error in browser handle read: 125 (Operation canceled) socket=-1
+Jul 14, 2020 03:04:35.009 [0xab6fa450] INFO - Network Service: Abandoning browse socket, it was closed.
+Jul 14, 2020 03:04:35.009 [0xab6fa450] ERROR - Network Service: Error in browser handle read: 125 (Operation canceled) socket=-1
+Jul 14, 2020 03:04:35.109 [0xab6fa450] INFO - Network Service: Abandoning browse socket, it was closed.
+Jul 14, 2020 03:04:35.109 [0xab6fa450] ERROR - Network Service: Error in browser handle read: 125 (Operation canceled) socket=-1
+Jul 14, 2020 03:04:35.209 [0xab6fa450] INFO - Network Service: Abandoning browse socket, it was closed.
+Jul 14, 2020 03:04:38.464 [0xab6fa450] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://192.168.40.1:42435/rootDesc.xml
+Jul 14, 2020 03:04:38.465 [0xab6fa450] DEBUG - HTTP requesting GET http://192.168.40.1:42435/rootDesc.xml
+Jul 14, 2020 03:04:38.470 [0xab6fa450] DEBUG - HTTP 200 response from GET http://192.168.40.1:42435/rootDesc.xml
+Jul 14, 2020 03:04:38.472 [0xab6fa450] DEBUG - NetworkServiceBrowser: found 3 SSDP devices via http://192.168.40.1:42435/rootDesc.xml
+Jul 14, 2020 03:04:38.472 [0xab6fa450] DEBUG - NetworkServiceBrowser: SSDP arrived: 192.168.40.1 (OpenWRT router)
+Jul 14, 2020 03:04:38.472 [0xab6fa450] DEBUG - NetworkServiceBrowser: SSDP arrived: 192.168.40.1 (WANDevice)
+Jul 14, 2020 03:04:38.472 [0xab6fa450] DEBUG - NetworkServiceBrowser: SSDP arrived: 192.168.40.1 (WANConnectionDevice)
+Jul 14, 2020 03:04:38.544 [0xab6fa450] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://192.168.40.84:7677/MainTVServer2/
+Jul 14, 2020 03:04:38.544 [0xab6fa450] DEBUG - HTTP requesting GET http://192.168.40.84:7677/MainTVServer2/
+Jul 14, 2020 03:04:38.557 [0xab6fa450] DEBUG - HTTP 200 response from GET http://192.168.40.84:7677/MainTVServer2/
+Jul 14, 2020 03:04:38.558 [0xab6fa450] DEBUG - NetworkServiceBrowser: found 1 SSDP devices via http://192.168.40.84:7677/MainTVServer2/
+Jul 14, 2020 03:04:38.558 [0xab6fa450] DEBUG - NetworkServiceBrowser: SSDP arrived: 192.168.40.84 ([TV] UN65JU670D)
+Jul 14, 2020 03:04:38.851 [0xab6fa450] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://192.168.40.56:9080
+Jul 14, 2020 03:04:38.851 [0xab6fa450] DEBUG - HTTP requesting GET http://192.168.40.56:9080
+Jul 14, 2020 03:04:38.887 [0xab6fa450] DEBUG - HTTP 200 response from GET http://192.168.40.56:9080
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - XML: Entity: line 1: 
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - XML: parser 
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - XML: error : 
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - XML: Start tag expected, '<' not found 
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - XML: status=ok 
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - XML: ^ 
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - Error parsing content.
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - Error parsing XML: Error parsing file.
+Jul 14, 2020 03:04:38.888 [0xab6fa450] ERROR - SSDP: Error parsing device schema for http://192.168.40.56:9080
+Jul 14, 2020 03:04:42.918 [0xab6fa450] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://192.168.40.103:60000/upnp/dev/de375352-cff5-3f10-a582-d0313ae9c585/desc
+Jul 14, 2020 03:04:42.918 [0xab6fa450] DEBUG - HTTP requesting GET http://192.168.40.103:60000/upnp/dev/de375352-cff5-3f10-a582-d0313ae9c585/desc
+Jul 14, 2020 03:04:43.060 [0xab6fa450] DEBUG - HTTP 200 response from GET http://192.168.40.103:60000/upnp/dev/de375352-cff5-3f10-a582-d0313ae9c585/desc
+Jul 14, 2020 03:04:43.061 [0xab6fa450] DEBUG - NetworkServiceBrowser: found 1 SSDP devices via http://192.168.40.103:60000/upnp/dev/de375352-cff5-3f10-a582-d0313ae9c585/desc
+Jul 14, 2020 03:04:43.061 [0xab6fa450] DEBUG - NetworkServiceBrowser: SSDP arrived: 192.168.40.103 (Joseph's 2nd Fire TV stick)
+Jul 14, 2020 03:04:52.819 [0xab6fa450] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://192.168.40.56:60000/upnp/dev/369b1ef7-3006-37d5-8768-bfd51662777d/desc
+Jul 14, 2020 03:04:52.819 [0xab6fa450] DEBUG - HTTP requesting GET http://192.168.40.56:60000/upnp/dev/369b1ef7-3006-37d5-8768-bfd51662777d/desc
+Jul 14, 2020 03:04:52.855 [0xab6fa450] DEBUG - HTTP 200 response from GET http://192.168.40.56:60000/upnp/dev/369b1ef7-3006-37d5-8768-bfd51662777d/desc
+Jul 14, 2020 03:04:52.856 [0xab6fa450] DEBUG - NetworkServiceBrowser: found 1 SSDP devices via http://192.168.40.56:60000/upnp/dev/369b1ef7-3006-37d5-8768-bfd51662777d/desc
+Jul 14, 2020 03:04:52.856 [0xab6fa450] DEBUG - NetworkServiceBrowser: SSDP arrived: 192.168.49.1 (Joseph's Fire TV stick)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

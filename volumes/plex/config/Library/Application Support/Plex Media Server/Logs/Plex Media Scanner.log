@@ -1,0 +1,23 @@
+Jul 01, 2020 23:01:42.693 [0xb420a450] INFO - Plex Media Scanner v1.19.4.2935-79e214ead - Docker Docker Container (LinuxServer.io) armv7l - build: linux-armv7hf_neon - GMT 00:00
+Jul 01, 2020 23:01:42.694 [0xb420a450] INFO - Linux version: 4.19.118-v7l+, language: en-US
+Jul 01, 2020 23:01:42.694 [0xb420a450] INFO - Processor Arm
+Jul 01, 2020 23:01:42.694 [0xb420a450] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity 93743436-72be-4175-90a7-a9286163f9b7
+Jul 01, 2020 23:01:42.695 [0xb6f3d010] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+Jul 01, 2020 23:01:42.947 [0xb372b450] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1593643302
+Jul 01, 2020 23:01:42.947 [0xb6f3d010] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/93743436-72be-4175-90a7-a9286163f9b7?percentComplete=0
+Jul 01, 2020 23:01:42.949 [0xb6f3d010] DEBUG - HTTP 200 response from PUT http://127.0.0.1:32400/activities/93743436-72be-4175-90a7-a9286163f9b7?percentComplete=0
+Jul 01, 2020 23:01:42.949 [0xb6f3d010] DEBUG - Scanning TV Shows using en(Plex Series Scanner) with 0 current media items and 1 section locations in the database...
+Jul 01, 2020 23:01:42.950 [0xb372b450] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1593643302
+Jul 01, 2020 23:01:43.148 [0xb6f3d010] DEBUG - Performing a scan with 'Plex Series Scanner' (language: en virtual: 0).
+Jul 01, 2020 23:01:43.148 [0xb6f3d010] DEBUG -   * Scanning /media/TV
+Jul 01, 2020 23:01:43.148 [0xb6f3d010] DEBUG -   * Marking media not available in /media/TV
+Jul 01, 2020 23:01:43.148 [0xb6f3d010] DEBUG -   * Taking 0 items out of the map (which has 0 items) for being unavailable.
+Jul 01, 2020 23:01:43.148 [0xb6f3d010] DEBUG -   * Taking 0 directories out of the map (which has 0 dirs) for being unavailable.
+Jul 01, 2020 23:01:43.149 [0xb6f3d010] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/93743436-72be-4175-90a7-a9286163f9b7?percentComplete=99.000000
+Jul 01, 2020 23:01:43.150 [0xb6f3d010] DEBUG - HTTP 200 response from PUT http://127.0.0.1:32400/activities/93743436-72be-4175-90a7-a9286163f9b7?percentComplete=99.000000
+Jul 01, 2020 23:01:43.151 [0xb6f3d010] DEBUG - Removing 0 media items that were left.
+Jul 01, 2020 23:01:43.151 [0xb6f3d010] DEBUG - Removing 0 directories that were left.
+Jul 01, 2020 23:01:43.151 [0xb6f3d010] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/93743436-72be-4175-90a7-a9286163f9b7?percentComplete=100
+Jul 01, 2020 23:01:43.153 [0xb6f3d010] DEBUG - HTTP 200 response from PUT http://127.0.0.1:32400/activities/93743436-72be-4175-90a7-a9286163f9b7?percentComplete=100
+Jul 01, 2020 23:01:43.154 [0xb6f3d010] DEBUG - Refreshing section 2 of type: 2
+Jul 01, 2020 23:01:43.154 [0xb2ac4450] DEBUG - Refreshing 0 IDs.

@@ -67,13 +67,18 @@ services:
     restart: unless-stopped
 
   zerotierone:
-    image: keynetworks/ztncui
+    image: ugeek/zerotier:arm
     container_name: zerotierone
     network_mode: host
     ports:
       - 3443:3443
     cap_add:
       - NET_ADMIN
+      - SYS_ADMIN
+    volumes:
+      - ./volumes/zerotierone:/var/lib/zerotier-one
+    devices:
+      - /dev/net/tun
     restart: unless-stopped
 
   nextcloud:

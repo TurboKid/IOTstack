@@ -1,0 +1,52 @@
+2020-07-14 22:29:45,702 (-490e1780) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: 79e214e (Thu Jun 11 11:17:11 UTC 2020)
+2020-07-14 22:29:45,703 (-490e1780) :  DEBUG (core:361) - Using the elevated policy
+2020-07-14 22:29:45,704 (-490e1780) :  DEBUG (core:450) - Starting runtime component.
+2020-07-14 22:29:45,716 (-490e1780) :  DEBUG (core:450) - Starting caching component.
+2020-07-14 22:29:45,717 (-490e1780) :  DEBUG (core:450) - Starting data component.
+2020-07-14 22:29:45,718 (-490e1780) :  DEBUG (core:450) - Starting networking component.
+2020-07-14 22:29:45,721 (-490e1780) :  DEBUG (networking:261) - Loaded HTTP cookies
+2020-07-14 22:29:45,724 (-490e1780) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2020-07-14 22:29:45,726 (-490e1780) :  DEBUG (core:450) - Starting localization component.
+2020-07-14 22:29:45,727 (-490e1780) :  INFO (localization:409) - Setting the default locale to en-us
+2020-07-14 22:29:45,728 (-490e1780) :  DEBUG (core:450) - Starting messaging component.
+2020-07-14 22:29:45,733 (-490e1780) :  DEBUG (core:450) - Starting debugging component.
+2020-07-14 22:29:45,733 (-490e1780) :  DEBUG (core:450) - Starting services component.
+2020-07-14 22:29:45,734 (-490e1780) :  DEBUG (core:450) - Starting myplex component.
+2020-07-14 22:29:45,735 (-490e1780) :  DEBUG (core:450) - Starting notifications component.
+2020-07-14 22:29:45,764 (-4f701ba0) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.lastfm'
+2020-07-14 22:29:46,170 (-490e1780) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.lastfm in namespace 'metadata'
+2020-07-14 22:29:46,187 (-490e1780) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2020-07-14 22:29:46,358 (-490e1780) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2020-07-14 22:29:46,362 (-4ff02ba0) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2020-07-14 22:29:46,364 (-4ff02ba0) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2020-07-14 22:29:46,383 (-490e1780) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2020-07-14 22:29:46,384 (-490e1780) :  DEBUG (core:150) - Finished starting framework core
+2020-07-14 22:29:46,385 (-4f701ba0) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2020-07-14 22:29:46,386 (-490e1780) :  DEBUG (core:560) - Loading plug-in code
+2020-07-14 22:29:46,484 (-4f701ba0) :  DEBUG (core:538) - Machine identifier is 3b29a1215a3bfb1462612680db6203f645e3a575
+2020-07-14 22:29:46,509 (-4f701ba0) :  DEBUG (core:539) - Server version is 1.19.4.2935-79e214ead
+2020-07-14 22:29:48,164 (-4ff02ba0) :  DEBUG (services:362) - Loaded services
+2020-07-14 22:29:48,206 (-50703ba0) :  DEBUG (services:438) - No shared code to load
+2020-07-14 22:29:48,315 (-490e1780) :  DEBUG (core:566) - Finished loading plug-in code
+2020-07-14 22:29:48,317 (-490e1780) :  DEBUG (messaging:69) - Exposing function ArtistMbidLookup for remote access
+2020-07-14 22:29:48,344 (-490e1780) :  DEBUG (messaging:69) - Exposing function GetMusicBrainzId for remote access
+2020-07-14 22:29:48,345 (-490e1780) :  DEBUG (messaging:69) - Exposing function ArtistSearch for remote access
+2020-07-14 22:29:48,346 (-490e1780) :  DEBUG (messaging:69) - Exposing function AlbumSearch for remote access
+2020-07-14 22:29:48,347 (-490e1780) :  DEBUG (messaging:69) - Exposing function ArtistTopTracks for remote access
+2020-07-14 22:29:48,348 (-490e1780) :  DEBUG (messaging:69) - Exposing function ArtistGetSimilar for remote access
+2020-07-14 22:29:48,349 (-490e1780) :  DEBUG (messaging:69) - Exposing function ArtistGetEvents for remote access
+2020-07-14 22:29:48,349 (-490e1780) :  DEBUG (agentkit:1132) - Creating new agent class called LastFmAgent
+2020-07-14 22:29:48,352 (-490e1780) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'sv', 'fr', 'es', 'de', 'pl', 'it', 'pt', 'ja', 'tr', 'ru', 'zh'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Last.fm'}]
+2020-07-14 22:29:48,361 (-490e1780) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50bnMxNApjb250cmlidXRlc190b3I0CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczcKTGFzdC5mbXM0Cm5hbWUxCnM2CkFydGlzdDEyCnMyCmVuczIKc3ZzMgpmcnMyCmVzczIKZGVzMgpwbHMyCml0czIKcHRzMgpqYXMyCnRyczIKcnVzMgp6aHIwCg__'
+2020-07-14 22:29:48,504 (-490e1780) :  DEBUG (agentkit:1132) - Creating new agent class called LastFmAlbumAgent
+2020-07-14 22:29:48,508 (-490e1780) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'sv', 'fr', 'es', 'de', 'pl', 'it', 'pt', 'ja', 'tr', 'ru', 'zh'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Last.fm'}, {'media_types': ['Album'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'sv', 'fr', 'es', 'de', 'pl', 'it', 'pt', 'ja', 'tr', 'ru', 'zh'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Last.fm'}]
+2020-07-14 22:29:48,533 (-490e1780) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo4CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzIKcjIKcjUKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50bnMxNApjb250cmlidXRlc190b3I0CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczcKTGFzdC5mbXM0Cm5hbWUxCnM2CkFydGlzdDEyCnMyCmVuczIKc3ZzMgpmcnMyCmVzczIKZGVzMgpwbHMyCml0czIKcHRzMgpqYXMyCnRyczIKcnVzMgp6aDEwCnI2CnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNwpzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3M3Ckxhc3QuZm1zNApuYW1lMQpzNQpBbGJ1bTEyCnMyCmVuczIKc3ZzMgpmcnMyCmVzczIKZGVzMgpwbHMyCml0czIKcHRzMgpqYXMyCnRyczIKcnVzMgp6aHIwCg__'
+2020-07-14 22:29:48,695 (-490e1780) :  DEBUG (messaging:69) - Exposing function GetArtistEventsFromSongkickById for remote access
+2020-07-14 22:29:48,696 (-490e1780) :  INFO (core:611) - Started plug-in
+2020-07-14 22:29:48,696 (-490e1780) :  DEBUG (socketinterface:160) - Starting socket server
+2020-07-14 22:29:48,698 (-490e1780) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2020-07-14 22:29:48,699 (-490e1780) :  INFO (socketinterface:184) - Socket server started on port 38173
+2020-07-14 22:29:48,700 (-490e1780) :  INFO (pipeinterface:25) - Entering run loop
+2020-07-14 22:29:48,700 (-490e1780) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2020-07-14 22:29:48,708 (-490e1780) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2020-07-14 22:29:48,710 (-490e1780) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 150 bytes

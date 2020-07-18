@@ -1,0 +1,150 @@
+- id: '1593665771904'
+  name: Cooking in Kitchen
+  entities:
+    light.kitchen_cabinet_light:
+      brightness: 255
+      color_temp: 57867
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Kitchen Cabinet Light
+      max_mireds: 65535
+      min_mireds: 153
+      state: 'on'
+      supported_features: 63
+- id: '1593800561958'
+  name: Spring Blossom in Kitchen
+  entities:
+    light.kitchen_cabinet_light:
+      brightness: 215
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Kitchen Cabinet Light
+      hs_color:
+      - 338.333
+      - 28.235
+      max_mireds: 65535
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 183
+      - 209
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.394
+      - 0.295
+- id: '1593800610319'
+  name: Tropical Twilight in Kitchen
+  entities:
+    light.kitchen_cabinet_light:
+      brightness: 124
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Kitchen Cabinet Light
+      hs_color:
+      - 263.448
+      - 34.118
+      max_mireds: 65535
+      min_mireds: 153
+      rgb_color:
+      - 201
+      - 167
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.291
+      - 0.225
+- id: '1593800676874'
+  name: Savanna Sunset in Kitchen
+  entities:
+    light.kitchen_cabinet_light:
+      brightness: 200
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Kitchen Cabinet Light
+      hs_color:
+      - 47.425
+      - 65.49
+      max_mireds: 65535
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 219
+      - 88
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.465
+      - 0.448
+- id: '1593800733550'
+  name: Dimmed in Kitchen
+  entities:
+    light.kitchen_cabinet_light:
+      brightness: 76
+      color_temp: 367
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Kitchen Cabinet Light
+      max_mireds: 65535
+      min_mireds: 153
+      state: 'on'
+      supported_features: 63
+- id: '1593800821410'
+  name: Arctic Aurora in Kitchen
+  entities:
+    light.kitchen_cabinet_light:
+      brightness: 139
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Kitchen Cabinet Light
+      hs_color:
+      - 200.448
+      - 87.451
+      max_mireds: 65535
+      min_mireds: 153
+      rgb_color:
+      - 31
+      - 179
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.149
+      - 0.219
+- id: '1593800855991'
+  name: Nightlight in Kitchen
+  entities:
+    light.kitchen_cabinet_light:
+      brightness: 1
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Kitchen Cabinet Light
+      hs_color:
+      - 33.767
+      - 84.314
+      max_mireds: 65535
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 160
+      - 39
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.561
+      - 0.404

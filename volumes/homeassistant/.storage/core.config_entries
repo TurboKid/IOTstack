@@ -1,0 +1,243 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "056c0581b27c4678b8cb9cb6a9097e53",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "192.168.40.122",
+                    "name": "Living Room"
+                },
+                "domain": "harmony",
+                "entry_id": "7b9ab49cf9be47f2839360a58ee08dba",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Living Room",
+                "unique_id": "5957947",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "allow_hue_groups": false,
+                    "host": "192.168.40.167",
+                    "username": "p7O-b8U-SVaQzyMWJIn9pvcnX9Ej0k30O7HvoHwE"
+                },
+                "domain": "hue",
+                "entry_id": "ec8636e6e3f54913a58a0a3420c4585d",
+                "options": {},
+                "source": "homekit",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Philips hue",
+                "unique_id": "942b24d026a4",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "device": {
+                        "baudrate": 57600,
+                        "path": "/dev/zigbee"
+                    },
+                    "radio_type": "ezsp"
+                },
+                "domain": "zha",
+                "entry_id": "a79fa5e9e3ec46be9b623d0993c5c44d",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "/dev/zigbee",
+                "unique_id": null,
+                "version": 2
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "network_key": "0x43, 0x7E, 0xB8, 0xE3, 0x0E, 0xF8, 0x0A, 0x1B, 0x8E, 0xCA, 0x7D, 0x9F, 0x29, 0x11, 0xAA, 0x48",
+                    "usb_path": "/dev/zwave"
+                },
+                "domain": "zwave",
+                "entry_id": "15626e726d394d4f8f4b42786352e212",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Z-Wave",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "host": "192.168.40.252",
+                    "name": "Brother MFC-J995DW"
+                },
+                "domain": "ipp",
+                "entry_id": "1199a00293f044748b49dfe99830cd8d",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "e3248000-80ce-11db-8000-3c2af4ce0fa8",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {},
+                "domain": "upnp",
+                "entry_id": "a4f81884853c44bcbb8b3e08390488ba",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "ccZPUPKR4Uv7jZPAitj1QN:APA91bGyfiFsEAg81rMVXrlhHu5yqTxncBQMthdKpIA0_13TtpyJZUhCLCcvmo9E9p8fyjw_aWfSBXlS2QzcU8VMNuvek76KzY9zos4Zet0Fdgm7jyz2mUjbhPuq_xhvWWgej6XyLSLJ",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2020.3.1 (1)",
+                    "device_id": "C9C537C0-19BA-48E2-A096-3A8ADED2910F",
+                    "device_name": "Joseph's iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X",
+                    "os_name": "iOS",
+                    "os_version": "13.5.1",
+                    "secret": "45a624e58cdcc1651811e0e7dc26133156351087eb8171b5de31086aa611142a",
+                    "supports_encryption": true,
+                    "user_id": "805289383aa640689c86a2203d27d0e8",
+                    "webhook_id": "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993"
+                },
+                "domain": "mobile_app",
+                "entry_id": "ba9003ec959c4dcdb1e4e652de65d07c",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Joseph's iPhone",
+                "unique_id": "io.robbie.HomeAssistant-C9C537C0-19BA-48E2-A096-3A8ADED2910F",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "f3SmOZGDnk8opGs7-p9ZLH:APA91bFSMx5gKwsEM7naGiMfGPG8FoMLQvY8Wp3lLsqY4MzqepMR10p_PRIbqTdNTdiGhKbNMq7aFGa3XdpCC0O72HRXb7yBQ3RfezM89PWpMQNu_tVbUcPAfh6rLKp6qA_38e0WC39t",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2020.3.1 (1)",
+                    "device_id": "1F3CA493-D6F9-442A-9464-2C97AA9F16FF",
+                    "device_name": "S Phone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone Xs Max",
+                    "os_name": "iOS",
+                    "os_version": "13.5.1",
+                    "secret": "bfa50d76eb5af956b7fb23c84c3bfe3b19607c17361e9be2bfc67c2caaa5ac6e",
+                    "supports_encryption": true,
+                    "user_id": "805289383aa640689c86a2203d27d0e8",
+                    "webhook_id": "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae"
+                },
+                "domain": "mobile_app",
+                "entry_id": "6af46d865a69497594604c6ff770a92c",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Shirley's Phone",
+                "unique_id": "io.robbie.HomeAssistant-1F3CA493-D6F9-442A-9464-2C97AA9F16FF",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "id": "04c4a27f-713f-45d9-a2a0-dd9adb421840",
+                    "manufacturer": "Samsung Electronics",
+                    "model": "UN65JU670D"
+                },
+                "domain": "samsungtv",
+                "entry_id": "e384c4d62bca425cab1c6c13b678c0fe",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "192.168.40.84",
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "host": "192.168.40.111"
+                },
+                "domain": "tradfri",
+                "entry_id": "2b7ac050a39049ea8e7e72ee2b733d7c",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "81:9B:7E:F2:46:D2",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "id": "6f0d7bc6-a96c-491e-82c8-d47b5d6bf990",
+                    "manufacturer": "Samsung Electronics",
+                    "model": "UN48JU640D"
+                },
+                "domain": "samsungtv",
+                "entry_id": "738329cc0d314566828451249cad70bf",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "192.168.40.210",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

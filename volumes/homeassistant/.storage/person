@@ -1,0 +1,17 @@
+{
+    "data": {
+        "items": [
+            {
+                "device_trackers": [
+                    "device_tracker.joseph_s_iphone",
+                    "device_tracker.s_phone"
+                ],
+                "id": "joseph_walts",
+                "name": "Joseph Walts",
+                "user_id": "805289383aa640689c86a2203d27d0e8"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 2
+}

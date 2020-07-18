@@ -1,0 +1,41 @@
+- id: turn_on_bathroom_motion
+  alias: Turn on bathroom light when there is motion
+  trigger:
+  - platform: state
+    entity_id: sensor.bathroom_sensor
+    to: 'on'
+  action:
+  - service: light.turn_on
+    entity_id: zwave.main_bathroom
+
+- id: turn_off_bathroom_motion
+  alias: Turn off bathroom light 10 minutes after last movement
+  trigger:
+  - platform: state
+    entity_id: sensor.bathroom_burglar
+    to: 'off'
+    for:
+    - minutes: 10
+  action:
+  - service: light.turn_off
+    entity_id: zwave.main_bathroom
+
+- id: turn_on_occulus_light
+  alias: Turn on Occulus Light after sunset
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: '+00:00:00'
+  action:
+  - service: light.turn_on
+    entity_id: switch.occulus
+
+- id: turn_off_occulus_light
+  alias: Turn off Occulus Light after 3 hours
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: '+03:00:00'
+  action:
+  - service: light.turn_off
+    entity_id: switch.occulus

@@ -1,0 +1,551 @@
+{
+    "data": {
+        "deleted_devices": [
+            {
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "id": "c7f3ad82bc634a039d7e0f797f72d936",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0d:6f:ff:fe:1c:4a:84-01"
+                    ]
+                ]
+            },
+            {
+                "config_entries": [
+                    "a79fa5e9e3ec46be9b623d0993c5c44d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:0d:6f:ff:fe:1f:24:60"
+                    ]
+                ],
+                "id": "5feaf6b091754a99bad0a2cb4c6556f7",
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:0d:6f:ff:fe:1f:24:60"
+                    ]
+                ]
+            },
+            {
+                "config_entries": [
+                    "a79fa5e9e3ec46be9b623d0993c5c44d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "68:0a:e2:ff:fe:e4:11:11"
+                    ]
+                ],
+                "id": "b548dd8ae45740e8a2575c5597b307fe",
+                "identifiers": [
+                    [
+                        "zha",
+                        "68:0a:e2:ff:fe:e4:11:11"
+                    ]
+                ]
+            }
+        ],
+        "devices": [
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "7b9ab49cf9be47f2839360a58ee08dba"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "97ac0accff254871ba977f5cc40498ea",
+                "identifiers": [
+                    [
+                        "harmony",
+                        "5957947"
+                    ]
+                ],
+                "manufacturer": "Logitech",
+                "model": "Harmony Hub",
+                "name": "Living Room",
+                "name_by_user": null,
+                "sw_version": "4.15.264",
+                "via_device_id": null
+            },
+            {
+                "area_id": "6e8ed09be7de4c309631a1cd2ed9b05c",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:20:64:c8"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "fb07bb688d314cb88f25ae64e61e72ce",
+                "identifiers": [
+                    [
+                        "hue",
+                        "001788FFFE2064C8"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "name_by_user": null,
+                "sw_version": "1939070020",
+                "via_device_id": null
+            },
+            {
+                "area_id": "58342d0d243743dc9f6c83d95fa072e1",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "82f141814c7f4b388715cb4150e1139c",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:12:4b:00:1d:04:dc:35-0b"
+                    ]
+                ],
+                "manufacturer": "GLEDOPTO",
+                "model": "Extended color light",
+                "name": "Kitchen Cabinet Light",
+                "name_by_user": null,
+                "sw_version": "2.0.0",
+                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
+            },
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "52b0632978bb4123bd5088925e1b11ef",
+                "identifiers": [
+                    [
+                        "hue",
+                        "14:b4:57:ff:fe:42:f0:65-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Couch Light",
+                "name_by_user": null,
+                "sw_version": "2.0.022",
+                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
+            },
+            {
+                "area_id": "0176299035bf41ce8291f77cebde00fa",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "c92adc7c3e0b4d948ccc5e9abb26fe6d",
+                "identifiers": [
+                    [
+                        "hue",
+                        "14:b4:57:ff:fe:7b:4f:2c-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Joe\u2019s Light",
+                "name_by_user": null,
+                "sw_version": "2.1.022",
+                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
+            },
+            {
+                "area_id": "0176299035bf41ce8291f77cebde00fa",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "3f02f68ca39e4246a3a5113a5b9f482f",
+                "identifiers": [
+                    [
+                        "hue",
+                        "14:b4:57:ff:fe:34:c9:61-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Dimmable light",
+                "name": "Shirley\u2019s Light",
+                "name_by_user": null,
+                "sw_version": "2.1.022",
+                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
+            },
+            {
+                "area_id": "0176299035bf41ce8291f77cebde00fa",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "89e9630086864a179dea3979b7b55ce5",
+                "identifiers": [
+                    [
+                        "hue",
+                        "90:fd:9f:ff:fe:61:93:6a-01"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "On/Off plug",
+                "name": "LED String Lights",
+                "name_by_user": null,
+                "sw_version": "2.1",
+                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
+            },
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "3d0a2b000ece4770b3924e3f86d9fd9a",
+                "identifiers": [
+                    [
+                        "hue",
+                        "d0:cf:5e:ff:fe:f7:1f:5a-01"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "On/Off plug",
+                "name": "Christmas Tree Light",
+                "name_by_user": null,
+                "sw_version": "2.1",
+                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
+            },
+            {
+                "area_id": "6e8ed09be7de4c309631a1cd2ed9b05c",
+                "config_entries": [
+                    "a79fa5e9e3ec46be9b623d0993c5c44d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:0d:6f:00:15:0e:6f:17"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "c903ff4fe6624f2ea726a9bf72984dda",
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:0d:6f:00:15:0e:6f:17"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "EZSP = Silicon Labs EmberZNet protocol: Elelabs, HUSBZB-1, Telegesis",
+                "name": "Zigbee Coordinator",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "15626e726d394d4f8f4b42786352e212"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "2f3749a449b34c28a7882d934fb062dd",
+                "identifiers": [
+                    [
+                        "zwave",
+                        1
+                    ]
+                ],
+                "manufacturer": "Z-Wave (Sigma Designs)",
+                "model": "UZB Z-Wave USB Adapter",
+                "name": "Z-Wave (Sigma Designs) UZB Z-Wave USB Adapter",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "b0a3110345754a6690624e65f3ede47f",
+                "config_entries": [
+                    "a79fa5e9e3ec46be9b623d0993c5c44d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:aa:7c:32"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "1e4d860c98854919bf801db2fbe109f4",
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:aa:7c:32"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "SP 224",
+                "name": "innr SP 224",
+                "name_by_user": "Occulus Light",
+                "sw_version": "0x10046500",
+                "via_device_id": "c903ff4fe6624f2ea726a9bf72984dda"
+            },
+            {
+                "area_id": "b0a3110345754a6690624e65f3ede47f",
+                "config_entries": [
+                    "15626e726d394d4f8f4b42786352e212"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "5fae5ce50a864a22a3307f2f23fd77e3",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "Inovelli",
+                "model": "Unknown: type=0003, id=0001",
+                "name": "Inovelli Unknown: type=0003, id=0001",
+                "name_by_user": "Dining Room Light",
+                "sw_version": null,
+                "via_device_id": "2f3749a449b34c28a7882d934fb062dd"
+            },
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "15626e726d394d4f8f4b42786352e212"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "98ffde74bda04ab98976faf1caa909ac",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "Inovelli",
+                "model": "Unknown: type=0003, id=0001",
+                "name": "Inovelli Unknown: type=0003, id=0001",
+                "name_by_user": "Main Living Room Lamp",
+                "sw_version": null,
+                "via_device_id": "2f3749a449b34c28a7882d934fb062dd"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ba9003ec959c4dcdb1e4e652de65d07c"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "a0eaaede058a496bbe4fbfd333d4d7f4",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "C9C537C0-19BA-48E2-A096-3A8ADED2910F"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Joseph's iPhone",
+                "name_by_user": null,
+                "sw_version": "13.5.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "6af46d865a69497594604c6ff770a92c"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "d4dbcbbac2284d3c876ab3cfce5b7299",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "1F3CA493-D6F9-442A-9464-2C97AA9F16FF"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone Xs Max",
+                "name": "S Phone",
+                "name_by_user": null,
+                "sw_version": "13.5.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "a79fa5e9e3ec46be9b623d0993c5c44d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:21:39:55:39"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "828c29f59f5045b8a6fa138c7e43ccd7",
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:21:39:55:39"
+                    ]
+                ],
+                "manufacturer": "GLEDOPTO",
+                "model": "GL-C-007",
+                "name": "GLEDOPTO GL-C-007",
+                "name_by_user": "Desk LED",
+                "sw_version": null,
+                "via_device_id": "c903ff4fe6624f2ea726a9bf72984dda"
+            },
+            {
+                "area_id": "58342d0d243743dc9f6c83d95fa072e1",
+                "config_entries": [
+                    "15626e726d394d4f8f4b42786352e212"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "83de79095613466bb27de55e85759b05",
+                "identifiers": [
+                    [
+                        "zwave",
+                        5
+                    ]
+                ],
+                "manufacturer": "Inovelli",
+                "model": "Unknown: type=0003, id=0001",
+                "name": "Inovelli Unknown: type=0003, id=0001",
+                "name_by_user": "Main Kitchen Light",
+                "sw_version": null,
+                "via_device_id": "2f3749a449b34c28a7882d934fb062dd"
+            },
+            {
+                "area_id": "a7f291f1567041668f1fc1a80ac20e9d",
+                "config_entries": [
+                    "15626e726d394d4f8f4b42786352e212"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "b3b19c9eabed46f1aa5304f180f5cc75",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6
+                    ]
+                ],
+                "manufacturer": "Inovelli",
+                "model": "Unknown: type=0003, id=0001",
+                "name": "Inovelli Unknown: type=0003, id=0001",
+                "name_by_user": "Main Bathroom Light",
+                "sw_version": null,
+                "via_device_id": "2f3749a449b34c28a7882d934fb062dd"
+            },
+            {
+                "area_id": "a7f291f1567041668f1fc1a80ac20e9d",
+                "config_entries": [
+                    "15626e726d394d4f8f4b42786352e212"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "2d3ce8cacaa640efab68bd280c9803c4",
+                "identifiers": [
+                    [
+                        "zwave",
+                        7
+                    ]
+                ],
+                "manufacturer": "Inovelli",
+                "model": "Unknown: type=000d, id=0001",
+                "name": "Inovelli Unknown: type=000d, id=0001",
+                "name_by_user": "Bathroom Sensor",
+                "sw_version": null,
+                "via_device_id": "2f3749a449b34c28a7882d934fb062dd"
+            },
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "de5ccd5b5d644cbd88f303a63a300090",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0d:6f:ff:fe:1f:24:60-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color light",
+                "name": "Couch RGB",
+                "name_by_user": "Couch RGB",
+                "sw_version": "1.3.002",
+                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
+            },
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "a79fa5e9e3ec46be9b623d0993c5c44d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "68:0a:e2:ff:fe:e3:57:f9"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "2c152301bafb46489843003b3dd6190a",
+                "identifiers": [
+                    [
+                        "zha",
+                        "68:0a:e2:ff:fe:e3:57:f9"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "AE 280 C",
+                "name": "innr AE 280 C",
+                "name_by_user": "Couch RGB",
+                "sw_version": "0x10096500",
+                "via_device_id": "c903ff4fe6624f2ea726a9bf72984dda"
+            },
+            {
+                "area_id": "4d5396c64be94d638918b50d01bd83b9",
+                "config_entries": [
+                    "a79fa5e9e3ec46be9b623d0993c5c44d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "ec:1b:bd:ff:fe:36:0e:ea"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "bb0cdb4d097c4d5ca54a3c207fb6ba9f",
+                "identifiers": [
+                    [
+                        "zha",
+                        "ec:1b:bd:ff:fe:36:0e:ea"
+                    ]
+                ],
+                "manufacturer": "innr",
+                "model": "AE 280 C",
+                "name": "innr AE 280 C",
+                "name_by_user": "TV Lamp",
+                "sw_version": "0x10096500",
+                "via_device_id": "c903ff4fe6624f2ea726a9bf72984dda"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

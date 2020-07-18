@@ -1,0 +1,193 @@
+{
+    "data": {
+        "config": {
+            "title": "Home - Lakeside",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.joes_light"
+                                },
+                                {
+                                    "entity": "light.shirleys_light"
+                                },
+                                {
+                                    "entity": "light.led_string_lights"
+                                }
+                            ],
+                            "title": "Bedroom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.occulus"
+                                },
+                                {
+                                    "entity": "light.dining_room_light"
+                                }
+                            ],
+                            "title": "Dining Room",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.kitchen_cabinet_light"
+                                },
+                                {
+                                    "entity": "scene.cooking_in_kitchen"
+                                },
+                                {
+                                    "entity": "scene.spring_blossom_in_kitchen"
+                                },
+                                {
+                                    "entity": "scene.tropical_twilight_in_kitchen"
+                                },
+                                {
+                                    "entity": "scene.savanna_sunset_in_kitchen"
+                                },
+                                {
+                                    "entity": "scene.arctic_aurora_in_kitchen"
+                                },
+                                {
+                                    "entity": "scene.dimmed_in_kitchen"
+                                },
+                                {
+                                    "entity": "scene.nightlight_in_kitchen"
+                                }
+                            ],
+                            "title": "Kitchen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "remote.living_room"
+                                },
+                                {
+                                    "entity": "light.couch_light"
+                                },
+                                {
+                                    "entity": "light.christmas_tree_light"
+                                },
+                                {
+                                    "entity": "light.inovelli"
+                                }
+                            ],
+                            "title": "My Title",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.home_lakeside",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entity": "light.dining_room_light",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.inovelli",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.couch_light",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.joes_light",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.shirleys_light",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.gledopto_gl_c_007_level_light_color_on_off",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.color_light_1",
+                            "type": "light"
+                        }
+                    ],
+                    "path": "control",
+                    "title": "Control"
+                },
+                {
+                    "badges": [
+                        {
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.kitchen_cabinet_light",
+                                    "name": "Cabinet Light"
+                                },
+                                {
+                                    "entity": "light.dining_room_light"
+                                },
+                                {
+                                    "entity": "switch.occulus"
+                                },
+                                {
+                                    "entity": "light.couch_light"
+                                },
+                                {
+                                    "entity": "light.inovelli"
+                                },
+                                {
+                                    "entity": "light.christmas_tree_light"
+                                },
+                                {
+                                    "entity": "light.joes_light"
+                                },
+                                {
+                                    "entity": "light.shirleys_light"
+                                },
+                                {
+                                    "entity": "light.led_string_lights"
+                                }
+                            ],
+                            "title": "All Lights",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.home_lakeside",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entity": "light.dining_room_light",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.inovelli",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.joes_light",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.shirleys_light",
+                            "type": "light"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Overview"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}
