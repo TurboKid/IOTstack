@@ -25,9 +25,9 @@
                     "Low Power Mode": false
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-60",
+                "icon": "mdi:battery-80",
                 "name": "Battery Level",
-                "state": 65,
+                "state": 88,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -36,11 +36,11 @@
             "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 65,
+                    "Battery Level": 88,
                     "Low Power Mode": false
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-60",
+                "icon": "mdi:battery-80",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -50,9 +50,9 @@
             "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993_connectivity_bssid": {
                 "added": true,
                 "attributes": {},
-                "icon": "mdi:wifi-off",
+                "icon": "mdi:wifi-star",
                 "name": "BSSID",
-                "state": "Not Connected",
+                "state": "e2:b4:f7:f0:5d:1e",
                 "type": "sensor",
                 "unique_id": "connectivity_bssid",
                 "webhook_id": "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993"
@@ -106,16 +106,35 @@
             "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993_connectivity_ssid": {
                 "added": true,
                 "attributes": {},
-                "icon": "mdi:wifi-off",
+                "icon": "mdi:wifi",
                 "name": "SSID",
-                "state": "Not Connected",
+                "state": "Tumbleweed Valley",
                 "type": "sensor",
                 "unique_id": "connectivity_ssid",
                 "webhook_id": "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993"
             },
             "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993_geocoded_location": {
                 "added": true,
-                "attributes": {},
+                "attributes": {
+                    "Administrative Area": "N/A",
+                    "Areas Of Interest": "N/A",
+                    "Country": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Inland Water": "N/A",
+                    "Locality": "N/A",
+                    "Location": [
+                        0,
+                        -122.2620544359088
+                    ],
+                    "Name": "North Pacific Ocean",
+                    "Ocean": "North Pacific Ocean",
+                    "Postal Code": "N/A",
+                    "Sub Administrative Area": "N/A",
+                    "Sub Locality": "N/A",
+                    "Sub Thoroughfare": "N/A",
+                    "Thoroughfare": "N/A",
+                    "Time Zone": "GMT-0800"
+                },
                 "icon": "mdi:map",
                 "name": "Geocoded Location",
                 "state": "Unknown",
@@ -128,7 +147,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Background Fetch",
+                "state": "Launch",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993"
@@ -149,7 +168,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 5352,
+                "state": 4401,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -171,7 +190,7 @@
                 "attributes": {},
                 "icon": "mdi:stairs-down",
                 "name": "Floors Descended",
-                "state": 1,
+                "state": 0,
                 "type": "sensor",
                 "unique_id": "pedometer_floors_descended",
                 "unit_of_measurement": "floors",
@@ -182,7 +201,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 7202,
+                "state": 5601,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",
@@ -191,14 +210,14 @@
             "c83fb08a708c478191b83f837aac2e511d34f9877f321aeeda4615f82c184993_storage": {
                 "added": true,
                 "attributes": {
-                    "Available": "25.68 GB",
-                    "Available (Important)": "42.83 GB",
-                    "Available (Opportunistic)": "41.55 GB",
+                    "Available": "25.34 GB",
+                    "Available (Important)": "42.94 GB",
+                    "Available (Opportunistic)": "41.66 GB",
                     "Total": "255.94 GB"
                 },
                 "icon": "mdi:database",
                 "name": "Storage",
-                "state": "10.03",
+                "state": "9.90",
                 "type": "sensor",
                 "unique_id": "storage",
                 "unit_of_measurement": "% available",
@@ -209,12 +228,12 @@
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Stationary"
+                        "Unknown"
                     ]
                 },
-                "icon": "mdi:human-male",
+                "icon": "mdi:help-circle",
                 "name": "Activity",
-                "state": "Stationary",
+                "state": "Unknown",
                 "type": "sensor",
                 "unique_id": "activity",
                 "webhook_id": "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae"
@@ -223,12 +242,12 @@
                 "added": true,
                 "attributes": {
                     "Battery State": "Not Charging",
-                    "Low Power Mode": false
+                    "Low Power Mode": true
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-30",
                 "name": "Battery Level",
-                "state": 55,
+                "state": 35,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -237,11 +256,11 @@
             "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 55,
-                    "Low Power Mode": false
+                    "Battery Level": 35,
+                    "Low Power Mode": true
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-30",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -251,9 +270,9 @@
             "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae_connectivity_bssid": {
                 "added": true,
                 "attributes": {},
-                "icon": "mdi:wifi-off",
+                "icon": "mdi:wifi-star",
                 "name": "BSSID",
-                "state": "Not Connected",
+                "state": "e2:b4:f7:f0:5d:1e",
                 "type": "sensor",
                 "unique_id": "connectivity_bssid",
                 "webhook_id": "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae"
@@ -306,9 +325,9 @@
             "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae_connectivity_ssid": {
                 "added": true,
                 "attributes": {},
-                "icon": "mdi:wifi-off",
+                "icon": "mdi:wifi",
                 "name": "SSID",
-                "state": "Not Connected",
+                "state": "Tumbleweed Valley",
                 "type": "sensor",
                 "unique_id": "connectivity_ssid",
                 "webhook_id": "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae"
@@ -328,7 +347,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Background Fetch",
+                "state": "Launch",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae"
@@ -349,7 +368,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 4667,
+                "state": 5797,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -360,7 +379,7 @@
                 "attributes": {},
                 "icon": "mdi:stairs-up",
                 "name": "Floors Ascended",
-                "state": 1,
+                "state": 0,
                 "type": "sensor",
                 "unique_id": "pedometer_floors_ascended",
                 "unit_of_measurement": "floors",
@@ -382,7 +401,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 6157,
+                "state": 8089,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",
@@ -391,14 +410,14 @@
             "e10c1df18b9d3987376b5a96c9731a1d3c7801b6cffc3924f462b18b7e1835ae_storage": {
                 "added": true,
                 "attributes": {
-                    "Available": "50.09 GB",
-                    "Available (Important)": "70.60 GB",
-                    "Available (Opportunistic)": "69.32 GB",
+                    "Available": "50.27 GB",
+                    "Available (Important)": "70.07 GB",
+                    "Available (Opportunistic)": "68.79 GB",
                     "Total": "255.92 GB"
                 },
                 "icon": "mdi:database",
                 "name": "Storage",
-                "state": "19.57",
+                "state": "19.64",
                 "type": "sensor",
                 "unique_id": "storage",
                 "unit_of_measurement": "% available",

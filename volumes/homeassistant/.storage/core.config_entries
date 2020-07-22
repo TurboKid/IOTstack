@@ -235,6 +235,36 @@
                 "title": "Ignored",
                 "unique_id": "192.168.40.210",
                 "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "token": "6cd6bdc533b4d9cdaffb5c45ea30fdf93bb5922f"
+                },
+                "domain": "hacs",
+                "entry_id": "6c638c4ae8be45d5b140e453b7d80c29",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "harmony",
+                "entry_id": "0424bd11e1d74ebaabe92348c4b68838",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "ac13128f147693148cdfdff7aea032de",
+                "version": 1
             }
         ]
     },

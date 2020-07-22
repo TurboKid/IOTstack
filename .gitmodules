@@ -1,0 +1,3 @@
+[submodule "volumes/homeassistant/ozwave"]
+	path = volumes/homeassistant/ozwave
+	url = https://github.com/InovelliUSA/OpenZWave.git

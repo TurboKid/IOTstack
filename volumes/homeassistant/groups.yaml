@@ -1,0 +1,10 @@
+living_room_rgb:
+  name: Living Room RGB
+  entities:
+    - light.couch_rgb
+    - light.tv_lamp
+bedroom_lights:
+  name: Bedroom Lights
+  entities:
+    - light.joes_light
+    - light.shirleys_light

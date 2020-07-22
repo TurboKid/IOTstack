@@ -3,12 +3,12 @@
         "devices": [
             {
                 "ieee": "00:0d:6f:00:15:0e:6f:17",
-                "last_seen": 1593644719.6786256,
+                "last_seen": 1595222595.7548034,
                 "name": "Silicon Labs EZSP"
             },
             {
                 "ieee": "cc:cc:cc:ff:fe:aa:7c:32",
-                "last_seen": 1594867892.6025205,
+                "last_seen": 1595440617.87366,
                 "name": "innr SP 224"
             },
             {
@@ -18,7 +18,7 @@
             },
             {
                 "ieee": "00:12:4b:00:21:39:55:39",
-                "last_seen": 1594867708.1038067,
+                "last_seen": 1595440519.534632,
                 "name": "GLEDOPTO GL-C-007"
             },
             {
@@ -28,12 +28,12 @@
             },
             {
                 "ieee": "68:0a:e2:ff:fe:e3:57:f9",
-                "last_seen": 1595045054.1233528,
+                "last_seen": 1595441047.5893166,
                 "name": "innr AE 280 C"
             },
             {
                 "ieee": "ec:1b:bd:ff:fe:36:0e:ea",
-                "last_seen": 1595045127.3526723,
+                "last_seen": 1595440998.2349396,
                 "name": "innr AE 280 C"
             }
         ]

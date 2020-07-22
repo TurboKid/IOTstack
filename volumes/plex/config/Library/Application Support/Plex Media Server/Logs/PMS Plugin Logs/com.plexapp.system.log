@@ -811,3 +811,195 @@ JSONDecodeError: Unexpected end of input
 2020-07-18 00:11:02,931 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
 2020-07-18 00:11:02,933 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
 2020-07-18 00:11:02,934 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-18 07:03:28,935 (-51f06ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-18 07:03:28,937 (-51f06ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-18 07:03:28,942 (-51f06ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-18 07:03:28,952 (-51f06ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-18 07:03:29,103 (-51f06ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-18 07:03:29,117 (-51f06ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-18 07:03:29,118 (-51f06ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-18 07:03:29,119 (-51f06ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-18 07:03:34,045 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-18 12:12:16,120 (-4fe02ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-18 12:12:16,121 (-4fe02ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-18 12:12:16,124 (-4fe02ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-18 12:12:16,132 (-4fe02ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-18 12:12:21,163 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-18 12:12:21,255 (-4fe02ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-18 12:12:21,276 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-18 12:12:21,278 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-18 12:12:21,279 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-18 18:14:27,280 (-51f06ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-18 18:14:27,281 (-51f06ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-18 18:14:27,284 (-51f06ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-18 18:14:27,295 (-51f06ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-18 18:14:27,416 (-51f06ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-18 18:14:27,431 (-51f06ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-18 18:14:27,432 (-51f06ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-18 18:14:27,433 (-51f06ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-18 18:14:32,331 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-18 22:29:48,689 (-5570dba0) :  DEBUG (runtime:717) - Handling request GET /system/messaging/clear_events/com.plexapp.agents.imdb
+2020-07-18 22:29:48,693 (-5570dba0) :  DEBUG (runtime:814) - Found route matching /system/messaging/clear_events/com.plexapp.agents.imdb
+2020-07-18 22:29:48,695 (-5570dba0) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2020-07-18 22:29:48,695 (-5570dba0) :  DEBUG (runtime:924) - Response: [200] str, 0 bytes
+2020-07-18 22:29:49,022 (-5570dba0) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/resourceHashes
+2020-07-18 22:29:49,025 (-5570dba0) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/resourceHashes
+2020-07-18 22:29:49,026 (-5570dba0) :  DEBUG (networking:143) - Requesting 'http://resources-cdn.plexapp.com/hashes.json'
+2020-07-18 22:29:49,083 (-5570dba0) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2020-07-18 22:29:49,083 (-5570dba0) :  DEBUG (runtime:924) - Response: [200] str, 13276 bytes
+2020-07-18 22:29:49,133 (-5570dba0) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2020-07-18 22:29:49,135 (-5570dba0) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2020-07-18 22:29:49,137 (-5570dba0) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2020-07-18 22:29:49,194 (-5570dba0) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2020-07-18 22:29:49,194 (-5570dba0) :  DEBUG (runtime:924) - Response: [200] str, 59988 bytes
+2020-07-18 22:29:51,375 (-5570dba0) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+2020-07-18 22:29:51,377 (-5570dba0) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2020-07-18 22:29:51,379 (-5570dba0) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+2020-07-18 22:29:51,380 (-5570dba0) :  INFO (agentservice:171) - Receiving agent info from com.plexapp.agents.imdb: [{'media_types': ['Movie'], 'primary_provider': True, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.themoviedb'], 'languages': ['en', 'sv', 'fr', 'es', 'nl', 'de', 'it', 'da', 'ar', 'ca', 'zh', 'cs', 'et', 'fi', 'el', 'he', 'hi', 'hu', 'id', 'ja', 'ko', 'lv', 'no', 'fa', 'pl', 'pt', 'ro', 'ru', 'sk', 'th', 'tr', 'uk', 'vi'], 'persist_stored_files': True, 'version': 0, 'accepts_from': ['com.plexapp.agents.localmedia'], 'prefs': True, 'name': 'Plex Movie'}]
+2020-07-18 22:29:51,384 (-5570dba0) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2020-07-18 22:29:51,384 (-5570dba0) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2020-07-18 22:29:56,432 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-19 01:08:24,433 (-4fe02ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-19 01:08:24,435 (-4fe02ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-19 01:08:24,438 (-4fe02ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-19 01:08:24,449 (-4fe02ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-19 01:08:29,492 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-19 01:08:29,765 (-4fe02ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-19 01:08:29,800 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-19 01:08:29,802 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-19 01:08:29,804 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-19 05:19:14,805 (-5570dba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-19 05:19:14,807 (-5570dba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-19 05:19:14,810 (-5570dba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-19 05:19:14,821 (-5570dba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-19 05:19:14,955 (-5570dba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-19 05:19:14,970 (-5570dba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-19 05:19:14,971 (-5570dba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-19 05:19:14,971 (-5570dba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-19 05:19:19,863 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-19 12:12:44,972 (-4fe02ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-19 12:12:44,974 (-4fe02ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-19 12:12:44,977 (-4fe02ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-19 12:12:44,987 (-4fe02ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-19 12:12:50,030 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-19 12:12:50,425 (-4fe02ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-19 12:12:50,440 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-19 12:12:50,440 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-19 12:12:50,441 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-19 17:08:54,442 (-5570dba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-19 17:08:54,444 (-5570dba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-19 17:08:54,447 (-5570dba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-19 17:08:54,458 (-5570dba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-19 17:08:54,605 (-5570dba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-19 17:08:54,620 (-5570dba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-19 17:08:54,621 (-5570dba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-19 17:08:54,622 (-5570dba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-19 17:08:59,517 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-20 00:30:44,623 (-4fe02ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-20 00:30:44,624 (-4fe02ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-20 00:30:44,627 (-4fe02ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-20 00:30:44,638 (-4fe02ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-20 00:30:44,764 (-4fe02ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-20 00:30:44,778 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-20 00:30:44,779 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-20 00:30:44,780 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-20 00:30:49,719 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-20 05:32:11,780 (-51f06ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-20 05:32:11,782 (-51f06ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-20 05:32:11,785 (-51f06ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-20 05:32:11,796 (-51f06ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-20 05:32:16,829 (-4fe02ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-20 05:32:17,111 (-51f06ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-20 05:32:17,136 (-51f06ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-20 05:32:17,137 (-51f06ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-20 05:32:17,138 (-51f06ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-20 12:47:18,138 (-4fe02ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-20 12:47:18,140 (-4fe02ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-20 12:47:18,142 (-4fe02ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-20 12:47:18,152 (-4fe02ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-20 12:47:23,189 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-20 12:47:23,311 (-4fe02ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-20 12:47:23,332 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-20 12:47:23,334 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-20 12:47:23,335 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-20 20:23:52,335 (-5570dba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-20 20:23:52,337 (-5570dba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-20 20:23:52,340 (-5570dba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-20 20:23:52,351 (-5570dba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-20 20:23:57,393 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-20 20:23:57,493 (-5570dba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-20 20:23:57,514 (-5570dba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-20 20:23:57,516 (-5570dba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-20 20:23:57,517 (-5570dba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-21 03:34:09,517 (-51f06ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-21 03:34:09,518 (-51f06ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-21 03:34:09,520 (-51f06ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-21 03:34:09,524 (-51f06ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-21 03:34:09,627 (-51f06ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-21 03:34:09,642 (-51f06ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-21 03:34:09,643 (-51f06ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-21 03:34:09,644 (-51f06ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-21 03:34:14,564 (-4fe02ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-21 10:42:17,644 (-5570dba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-21 10:42:17,646 (-5570dba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-21 10:42:17,649 (-5570dba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-21 10:42:17,660 (-5570dba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-21 10:42:22,696 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-21 10:42:23,024 (-5570dba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-21 10:42:23,060 (-5570dba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-21 10:42:23,062 (-5570dba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-21 10:42:23,064 (-5570dba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-21 16:30:01,064 (-51f06ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-21 16:30:01,065 (-51f06ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-21 16:30:01,069 (-51f06ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-21 16:30:01,079 (-51f06ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-21 16:30:01,254 (-51f06ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-21 16:30:01,269 (-51f06ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-21 16:30:01,270 (-51f06ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-21 16:30:01,271 (-51f06ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-21 16:30:06,094 (-4fe02ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-21 22:24:22,272 (-5570dba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-21 22:24:22,273 (-5570dba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-21 22:24:22,276 (-5570dba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-21 22:24:22,287 (-5570dba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-21 22:24:22,408 (-5570dba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-21 22:24:22,423 (-5570dba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-21 22:24:22,423 (-5570dba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-21 22:24:22,424 (-5570dba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-21 22:24:27,332 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-22 05:41:45,425 (-4fe02ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-22 05:41:45,426 (-4fe02ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-22 05:41:45,429 (-4fe02ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-22 05:41:45,440 (-4fe02ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-22 05:41:45,576 (-4fe02ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-22 05:41:45,597 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-22 05:41:45,598 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-22 05:41:45,600 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-22 05:41:50,453 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-22 10:52:00,600 (-51f06ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-22 10:52:00,601 (-51f06ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-22 10:52:00,602 (-51f06ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-22 10:52:00,607 (-51f06ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-22 10:52:01,138 (-51f06ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-22 10:52:01,161 (-51f06ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-22 10:52:01,163 (-51f06ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-22 10:52:01,164 (-51f06ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-22 10:52:05,675 (-4fe02ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-22 15:14:39,165 (-5570dba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-22 15:14:39,166 (-5570dba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-22 15:14:39,169 (-5570dba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-22 15:14:39,180 (-5570dba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-22 15:14:39,307 (-5570dba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-22 15:14:39,323 (-5570dba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-22 15:14:39,323 (-5570dba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-22 15:14:39,324 (-5570dba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'
+2020-07-22 15:14:44,223 (-51f06ba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-22 20:43:20,325 (-4fe02ba0) :  DEBUG (runtime:1156) - Starting timed thread named 'auto_update_thread'
+2020-07-22 20:43:20,326 (-4fe02ba0) :  INFO (storeservice:356) - Starting automatic update check
+2020-07-22 20:43:20,327 (-4fe02ba0) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2020-07-22 20:43:20,332 (-4fe02ba0) :  DEBUG (networking:143) - Requesting 'https://plugins.plex.tv/apps/all.json?frameworkVersion=2.6.3&machineIdentifier=3b29a1215a3bfb1462612680db6203f645e3a575&os=Linux&osVersion=4.19.118-v7l%2B&cpu=armv5tel&serverVersion=1.19.4.2935-79e214ead&systemRevision=79e214e'
+2020-07-22 20:43:25,377 (-5570dba0) :  INFO (datakit:131) - Saved the dictionary file
+2020-07-22 20:43:25,448 (-4fe02ba0) :  INFO (storeservice:495) - No beta plugins.
+2020-07-22 20:43:25,469 (-4fe02ba0) :  INFO (storeservice:531) - 'Services' plug-in [com.plexapp.system.services] is up to date (62fcf1f)
+2020-07-22 20:43:25,471 (-4fe02ba0) :  INFO (storeservice:362) - All plug-ins are up to date
+2020-07-22 20:43:25,472 (-4fe02ba0) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'auto_update_thread'

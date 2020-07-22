@@ -106,11 +106,15 @@
                             "type": "light"
                         },
                         {
-                            "entity": "light.gledopto_gl_c_007_level_light_color_on_off",
+                            "entity": "light.tv_lamp",
                             "type": "light"
                         },
                         {
-                            "entity": "light.color_light_1",
+                            "entity": "light.couch_rgb",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.desk_led",
                             "type": "light"
                         }
                     ],

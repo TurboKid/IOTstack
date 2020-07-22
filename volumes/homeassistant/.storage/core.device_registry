@@ -49,6 +49,19 @@
                         "68:0a:e2:ff:fe:e4:11:11"
                     ]
                 ]
+            },
+            {
+                "config_entries": [
+                    "ec8636e6e3f54913a58a0a3420c4585d"
+                ],
+                "connections": [],
+                "id": "de5ccd5b5d644cbd88f303a63a300090",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0d:6f:ff:fe:1f:24:60-01"
+                    ]
+                ]
             }
         ],
         "devices": [
@@ -474,27 +487,6 @@
             {
                 "area_id": "4d5396c64be94d638918b50d01bd83b9",
                 "config_entries": [
-                    "ec8636e6e3f54913a58a0a3420c4585d"
-                ],
-                "connections": [],
-                "entry_type": null,
-                "id": "de5ccd5b5d644cbd88f303a63a300090",
-                "identifiers": [
-                    [
-                        "hue",
-                        "00:0d:6f:ff:fe:1f:24:60-01"
-                    ]
-                ],
-                "manufacturer": "IKEA of Sweden",
-                "model": "Color light",
-                "name": "Couch RGB",
-                "name_by_user": "Couch RGB",
-                "sw_version": "1.3.002",
-                "via_device_id": "fb07bb688d314cb88f25ae64e61e72ce"
-            },
-            {
-                "area_id": "4d5396c64be94d638918b50d01bd83b9",
-                "config_entries": [
                     "a79fa5e9e3ec46be9b623d0993c5c44d"
                 ],
                 "connections": [
@@ -543,6 +535,27 @@
                 "name_by_user": "TV Lamp",
                 "sw_version": "0x10096500",
                 "via_device_id": "c903ff4fe6624f2ea726a9bf72984dda"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "6c638c4ae8be45d5b140e453b7d80c29"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "bdb47c2b1d27490ab4cf52196bde3c58",
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "name_by_user": null,
+                "sw_version": "1.2.2",
+                "via_device_id": null
             }
         ]
     },

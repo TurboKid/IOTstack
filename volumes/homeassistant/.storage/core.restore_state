@@ -1,27 +1,31 @@
 {
     "data": [
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Joseph Walts",
+                    "gps_accuracy": 65,
                     "id": "joseph_walts",
+                    "latitude": 0.0,
+                    "longitude": -122.2620544359088,
+                    "source": "device_tracker.joseph_s_iphone",
                     "user_id": "805289383aa640689c86a2203d27d0e8"
                 },
                 "context": {
-                    "id": "bbd7c5c4d22f40c6b2ab6c011d7df21d",
+                    "id": "52a4628903394a9d9c1dc70bc05039eb",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.joseph_walts",
-                "last_changed": "2020-07-16T03:00:15.240211+00:00",
-                "last_updated": "2020-07-16T03:00:24.731260+00:00",
-                "state": "unknown"
+                "last_changed": "2020-07-22T18:10:40.952503+00:00",
+                "last_updated": "2020-07-22T18:11:03.578132+00:00",
+                "state": "not_home"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Turn on bathroom light when there is motion",
@@ -29,18 +33,18 @@
                     "last_triggered": "2020-07-15T02:14:49.439858+00:00"
                 },
                 "context": {
-                    "id": "afb28515b0574ef781936b72700da1e3",
+                    "id": "2455e5cf1baa41bfb4bfbd3666a890ab",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.turn_on_bathroom_light_when_there_is_motion",
-                "last_changed": "2020-07-16T03:00:21.093794+00:00",
-                "last_updated": "2020-07-16T03:00:21.093794+00:00",
+                "last_changed": "2020-07-22T18:10:47.286856+00:00",
+                "last_updated": "2020-07-22T18:10:47.286856+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Turn off bathroom light 10 minutes after last movement",
@@ -48,109 +52,202 @@
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "b78499cc1b4f4ef79496a804a643da33",
+                    "id": "7d3073f1cbe2452f856c414c472cf268",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.turn_off_bathroom_light_10_minutes_after_last_movement",
-                "last_changed": "2020-07-16T03:00:21.094194+00:00",
-                "last_updated": "2020-07-16T03:00:21.094194+00:00",
+                "last_changed": "2020-07-22T18:10:47.287314+00:00",
+                "last_updated": "2020-07-22T18:10:47.287314+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Turn on Occulus Light after sunset",
                     "id": "turn_on_occulus_light",
-                    "last_triggered": "2020-07-18T03:29:51.037276+00:00"
+                    "last_triggered": "2020-07-22T03:27:21.037158+00:00"
                 },
                 "context": {
-                    "id": "f5b9e361c71c4fd7a7fb23f73e66d4dc",
+                    "id": "a11cfc1d373a40dfb37c6b7de3b9f022",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.turn_on_occulus_light_after_sunset",
-                "last_changed": "2020-07-16T03:00:21.094541+00:00",
-                "last_updated": "2020-07-18T03:29:51.037600+00:00",
+                "last_changed": "2020-07-22T18:10:47.287720+00:00",
+                "last_updated": "2020-07-22T18:10:47.287720+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Turn off Occulus Light after 3 hours",
                     "id": "turn_off_occulus_light",
-                    "last_triggered": "2020-07-17T06:30:24.006233+00:00"
+                    "last_triggered": "2020-07-22T06:27:21.008952+00:00"
                 },
                 "context": {
-                    "id": "cbe1e6bdbd604d49bc86ccad3c0f8c5f",
+                    "id": "e330f1b734ae42c4aa730e42e3fbae82",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.turn_off_occulus_light_after_3_hours",
-                "last_changed": "2020-07-16T03:00:21.094881+00:00",
-                "last_updated": "2020-07-17T06:30:24.006586+00:00",
+                "last_changed": "2020-07-22T18:10:47.288099+00:00",
+                "last_updated": "2020-07-22T18:10:47.288099+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
+                    "altitude": 5.612137317657471,
+                    "battery_level": 53,
                     "friendly_name": "Joseph's iPhone",
-                    "source_type": "gps"
+                    "gps_accuracy": 65,
+                    "latitude": 0.0,
+                    "longitude": -122.2620544359088,
+                    "source_type": "gps",
+                    "vertical_accuracy": 10
                 },
                 "context": {
-                    "id": "fadc1f38d5804f5f83d541b1c50a5f56",
+                    "id": "76c5a18bdee84247b98dea32c51e4415",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.joseph_s_iphone",
-                "last_changed": "2020-07-16T03:00:21.853391+00:00",
-                "last_updated": "2020-07-16T03:00:21.853391+00:00",
-                "state": "unknown"
+                "last_changed": "2020-07-22T18:10:48.661503+00:00",
+                "last_updated": "2020-07-22T18:10:48.661503+00:00",
+                "state": "not_home"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "S Phone",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "5357ad5643b441189276e785bdedbd9d",
+                    "id": "6c1bca2b435349b0aa7b031d62716ae3",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.s_phone",
-                "last_changed": "2020-07-16T03:00:21.853897+00:00",
-                "last_updated": "2020-07-16T03:00:21.853897+00:00",
+                "last_changed": "2020-07-22T18:10:48.661979+00:00",
+                "last_updated": "2020-07-22T18:10:48.661979+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Occulus Light"
                 },
                 "context": {
-                    "id": "89009d46424c4beebeb1fbc13221a137",
+                    "id": "9bdbadf53b964845848593474578af36",
                     "parent_id": null,
-                    "user_id": "805289383aa640689c86a2203d27d0e8"
+                    "user_id": null
                 },
                 "entity_id": "switch.occulus",
-                "last_changed": "2020-07-17T07:58:28.795931+00:00",
-                "last_updated": "2020-07-17T07:58:28.795931+00:00",
+                "last_changed": "2020-07-22T18:10:52.301595+00:00",
+                "last_updated": "2020-07-22T18:10:52.301595+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
+            "state": {
+                "attributes": {
+                    "brightness": 254,
+                    "color_temp": 57867,
+                    "effect_list": [
+                        "colorloop"
+                    ],
+                    "friendly_name": "Desk LED",
+                    "hs_color": [
+                        0,
+                        0
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153,
+                    "off_brightness": null,
+                    "rgb_color": [
+                        255,
+                        255,
+                        255
+                    ],
+                    "supported_features": 63,
+                    "xy_color": [
+                        0.323,
+                        0.329
+                    ]
+                },
+                "context": {
+                    "id": "fa45e9cc49a4411781d05a8ed77645b7",
+                    "parent_id": null,
+                    "user_id": "805289383aa640689c86a2203d27d0e8"
+                },
+                "entity_id": "light.desk_led",
+                "last_changed": "2020-07-22T22:24:44.466777+00:00",
+                "last_updated": "2020-07-22T22:24:44.466777+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
+            "state": {
+                "attributes": {
+                    "effect_list": [
+                        "colorloop"
+                    ],
+                    "friendly_name": "Couch RGB",
+                    "max_mireds": 555,
+                    "min_mireds": 153,
+                    "off_brightness": null,
+                    "supported_features": 63
+                },
+                "context": {
+                    "id": "1121e60cde4449068d9e34e36f58efd0",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.couch_rgb",
+                "last_changed": "2020-07-22T18:10:52.333018+00:00",
+                "last_updated": "2020-07-22T18:10:52.333018+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-07-22T23:11:23.004290+00:00",
+            "state": {
+                "attributes": {
+                    "effect_list": [
+                        "colorloop"
+                    ],
+                    "friendly_name": "TV Lamp",
+                    "max_mireds": 555,
+                    "min_mireds": 153,
+                    "off_brightness": null,
+                    "supported_features": 63
+                },
+                "context": {
+                    "id": "6a76056116eb45f78d85efe0a5e8e73a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.tv_lamp",
+                "last_changed": "2020-07-22T18:10:52.340638+00:00",
+                "last_updated": "2020-07-22T18:10:52.340638+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-07-18T05:01:07.664406+00:00",
             "state": {
                 "attributes": {
                     "brightness": 254,
@@ -185,174 +282,6 @@
                 "entity_id": "light.gledopto_gl_c_007_level_light_color_on_off",
                 "last_changed": "2020-07-18T03:20:57.602998+00:00",
                 "last_updated": "2020-07-18T03:30:40.828107+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
-            "state": {
-                "attributes": {
-                    "brightness": 254,
-                    "color_temp": 370,
-                    "effect_list": [
-                        "colorloop"
-                    ],
-                    "friendly_name": "TV Lamp",
-                    "hs_color": [
-                        0,
-                        0
-                    ],
-                    "max_mireds": 555,
-                    "min_mireds": 153,
-                    "off_brightness": null,
-                    "rgb_color": [
-                        255,
-                        255,
-                        255
-                    ],
-                    "supported_features": 63,
-                    "xy_color": [
-                        0.323,
-                        0.329
-                    ]
-                },
-                "context": {
-                    "id": "b6b72f374438485f9481ec6bff851fa0",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "light.tv_lamp",
-                "last_changed": "2020-07-18T04:08:19.995951+00:00",
-                "last_updated": "2020-07-18T04:08:19.995951+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-07-18T04:18:35.007077+00:00",
-            "state": {
-                "attributes": {
-                    "brightness": 254,
-                    "color_temp": 370,
-                    "effect_list": [
-                        "colorloop"
-                    ],
-                    "friendly_name": "Couch RGB",
-                    "hs_color": [
-                        0,
-                        0
-                    ],
-                    "max_mireds": 555,
-                    "min_mireds": 153,
-                    "off_brightness": null,
-                    "rgb_color": [
-                        255,
-                        255,
-                        255
-                    ],
-                    "supported_features": 63,
-                    "xy_color": [
-                        0.323,
-                        0.329
-                    ]
-                },
-                "context": {
-                    "id": "85a495836b9e4ea79b4248447f22b0af",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "light.couch_rgb",
-                "last_changed": "2020-07-18T04:08:44.598246+00:00",
-                "last_updated": "2020-07-18T04:08:44.598246+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-07-15T21:42:10.427393+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Couch RGB",
-                    "supported_features": 57
-                },
-                "context": {
-                    "id": "7eae913c96cc433aa9da2caf969bdea8",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "light.light_couch_rgb_level_light_color_on_off",
-                "last_changed": "2020-07-15T21:42:10.300814+00:00",
-                "last_updated": "2020-07-15T21:42:10.300814+00:00",
-                "state": "unavailable"
-            }
-        },
-        {
-            "last_seen": "2020-07-14T03:15:31.768000+00:00",
-            "state": {
-                "attributes": {
-                    "brightness": 254,
-                    "friendly_name": "IKEA of Sweden TRADFRI bulb E26 CWS opal 600lm 60241ffe level, light_color, on_off",
-                    "hs_color": [
-                        0,
-                        0
-                    ],
-                    "off_brightness": null,
-                    "rgb_color": [
-                        255,
-                        255,
-                        255
-                    ],
-                    "supported_features": 57,
-                    "xy_color": [
-                        0.323,
-                        0.329
-                    ]
-                },
-                "context": {
-                    "id": "0439f97bf1f943e59813a8eab328d5cd",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "light.ikea_of_sweden_tradfri_bulb_e26_cws_opal_600lm_60241ffe_level_light_color_on_off",
-                "last_changed": "2020-07-14T03:15:07.287007+00:00",
-                "last_updated": "2020-07-14T03:15:07.287007+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-07-14T04:16:31.802040+00:00",
-            "state": {
-                "attributes": {
-                    "brightness": 254,
-                    "color_temp": 500,
-                    "effect_list": [
-                        "colorloop"
-                    ],
-                    "friendly_name": "GLEDOPTO GL-C-007 39553921 level, light_color, on_off",
-                    "hs_color": [
-                        0,
-                        0
-                    ],
-                    "max_mireds": 500,
-                    "min_mireds": 153,
-                    "off_brightness": null,
-                    "rgb_color": [
-                        255,
-                        255,
-                        255
-                    ],
-                    "supported_features": 63,
-                    "xy_color": [
-                        0.323,
-                        0.329
-                    ]
-                },
-                "context": {
-                    "id": "39b77df6fc204fe394df9598f18544e5",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "light.gledopto_gl_c_007_39553921_level_light_color_on_off",
-                "last_changed": "2020-07-14T04:16:12.233063+00:00",
-                "last_updated": "2020-07-14T04:16:12.233063+00:00",
                 "state": "on"
             }
         },

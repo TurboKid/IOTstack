@@ -6,9 +6,20 @@ default_config:
 tts:
   - platform: google_translate
 
+lovelace:
+  mode: yaml
+
+emulated_hue:
+  listen_port: 80
+
+#zwave:
+  #usb_path: /dev/zwave
+  #config_path: /config/ozwave/config
+
+frontend:
+  themes: !include_dir_merge_named themes/
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
-tradfri:
-  host: 192.168.40.111
