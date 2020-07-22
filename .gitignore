@@ -1,6 +1,8 @@
 #ignore data folders for containers
 /services/
 /backups/
-/volumes/influxdb/
+/volumes/influxdb/data/
 /volumes/portainer/
+/volumes/zerotierone/
+/volumes/grafana/
 .outofdate
